@@ -1,0 +1,7 @@
+** sch_path: /foss/designs/ENGN1600-CAD5/1BIT.sch
+.subckt 1BIT Sh Shb OUT IN1 IN0
+*.PININFO Sh:I Shb:I OUT:O IN1:I IN0:I
+M2 OUT Sh IN0 GND nfet_03v3 L=0.28u W=0.5u nf=1 m=1
+M1 OUT Shb IN1 GND nfet_03v3 L=0.28u W=0.5u nf=1 m=1
+.ends
+.GLOBAL GND
