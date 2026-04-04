@@ -1,0 +1,13 @@
+** sch_path: /foss/designs/ENGN1600-CAD5/4BIT.sch
+.subckt 4BIT Sh Shb OUT0 Ax IN0 Ax-1 IN1 OUT1 Ax-2 IN2 Ax-3 IN3 OUT2 OUT3
+*.PININFO Sh:I Shb:I OUT0:O Ax:I IN0:I Ax-1:I IN1:I OUT1:O Ax-2:I IN2:I Ax-3:I IN3:I OUT2:O OUT3:O
+M2 OUT0 Sh IN0 GND nfet_03v3 L=0.28u W=0.5u nf=1 m=1
+M1 OUT0 Shb Ax GND nfet_03v3 L=0.28u W=0.5u nf=1 m=1
+M3 OUT1 Sh IN1 GND nfet_03v3 L=0.28u W=0.5u nf=1 m=1
+M4 OUT1 Shb Ax-1 GND nfet_03v3 L=0.28u W=0.5u nf=1 m=1
+M5 OUT2 Sh IN2 GND nfet_03v3 L=0.28u W=0.5u nf=1 m=1
+M6 OUT2 Shb Ax-2 GND nfet_03v3 L=0.28u W=0.5u nf=1 m=1
+M7 OUT3 Sh IN3 GND nfet_03v3 L=0.28u W=0.5u nf=1 m=1
+M8 OUT3 Shb Ax-3 GND nfet_03v3 L=0.28u W=0.5u nf=1 m=1
+.ends
+.GLOBAL GND
