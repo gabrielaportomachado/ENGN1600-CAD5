@@ -48,7 +48,7 @@ C {ipin.sym} 140 -160 1 0 {name=p2 lab=Shb}
 C {opin.sym} 360 -80 0 0 {name=p4 lab=OUT}
 C {lab_wire.sym} -50 -90 0 0 {name=p3 sig_type=std_logic lab=OUT}
 C {lab_wire.sym} 200 -90 0 0 {name=p5 sig_type=std_logic lab=OUT}
-C {ipin.sym} 70 -90 0 0 {name=p7 lab=IN1}
+C {ipin.sym} 70 -90 0 0 {name=p7 lab=Ax}
 C {lab_wire.sym} -110 -20 1 0 {name=p8 sig_type=std_logic lab=GND}
 C {lab_wire.sym} 140 -20 1 0 {name=p9 sig_type=std_logic lab=GND}
 C {ipin.sym} -190 -90 0 0 {name=p6 lab=IN0}
