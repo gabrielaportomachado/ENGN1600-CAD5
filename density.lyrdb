@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <report-database>
  <description>GF180 DENSITY DRC Run Report at</description>
- <original-file>/foss/designs/ENGN1600-CAD5/1BIT.gds</original-file>
+ <original-file>/foss/designs/ENGN1600-CAD5/8BIT.gds</original-file>
  <generator>drc: script='/foss/pdks/gf180mcuD/libs.tech/klayout/macros/gf180mcu_drc.lydrc'</generator>
- <top-cell>1BIT</top-cell>
+ <top-cell>8BIT</top-cell>
  <tags>
  </tags>
  <categories>
   <category>
-   <name>M1.4</name>
-   <description>M1.4 : Metal1 coverage over the entire die shall be &gt;30%
-                (Refer to section 13.0 for Dummy Metal fill guidelines.
-                 Customer needs to ensure enough dummy metal to satisfy Metal1 coverage) : 30%</description>
+   <name>PL.8</name>
+   <description>PL.8 : Poly2 coverage over the entire die shall be 14%.
+                Dummy poly2 lines must be added to meet the minimum poly2 density requirement. : 14%</description>
    <categories>
    </categories>
   </category>
@@ -58,7 +57,7 @@
  </categories>
  <cells>
   <cell>
-   <name>1BIT</name>
+   <name>8BIT</name>
    <variant/>
    <layout-name/>
    <references>
@@ -68,122 +67,410 @@
  <items>
   <item>
    <tags/>
-   <category>'M1.4'</category>
-   <cell>1BIT</cell>
+   <category>'PL.8'</category>
+   <cell>8BIT</cell>
    <visited>false</visited>
    <multiplicity>1</multiplicity>
    <comment/>
    <image/>
    <values>
-    <value>polygon: (-1.115,0.255;-1.115,0.655;-0.715,0.655;-0.715,0.255)</value>
+    <value>polygon: (-1.22,-25.535;-1.22,3.965;-1.04,3.965;-1.04,3.195;0.32,3.195;0.32,2.915;-1.04,2.915;-1.04,-0.51;0.32,-0.51;0.32,-0.79;-1.04,-0.79;-1.04,-4.18;0.32,-4.18;0.32,-4.46;-1.04,-4.46;-1.04,-7.885;0.32,-7.885;0.32,-8.165;-1.04,-8.165;-1.04,-11.555;0.32,-11.555;0.32,-11.835;-1.04,-11.835;-1.04,-15.26;0.32,-15.26;0.32,-15.54;-1.04,-15.54;-1.04,-18.93;0.32,-18.93;0.32,-19.21;-1.04,-19.21;-1.04,-22.635;0.32,-22.635;0.32,-22.915;-1.04,-22.915;-1.04,-25.535)</value>
    </values>
   </item>
   <item>
    <tags/>
-   <category>'M1.4'</category>
-   <cell>1BIT</cell>
+   <category>'PL.8'</category>
+   <cell>8BIT</cell>
    <visited>false</visited>
    <multiplicity>1</multiplicity>
    <comment/>
    <image/>
    <values>
-    <value>polygon: (-1.115,1.205;-1.115,1.605;-0.715,1.605;-0.715,1.205)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'M1.4'</category>
-   <cell>1BIT</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <comment/>
-   <image/>
-   <values>
-    <value>polygon: (-0.435,1.205;-0.435,1.605;-0.035,1.605;-0.035,1.205)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'M1.4'</category>
-   <cell>1BIT</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <comment/>
-   <image/>
-   <values>
-    <value>polygon: (-0.435,2.33;-0.435,2.73;-0.035,2.73;-0.035,2.33)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'M1.4'</category>
-   <cell>1BIT</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <comment/>
-   <image/>
-   <values>
-    <value>polygon: (-1.115,3.31;-1.115,3.965;-0.715,3.965;-0.715,3.71;-0.425,3.71;-0.425,3.7;-0.045,3.7;-0.045,3.32;-0.425,3.32;-0.425,3.31)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'M1.4'</category>
-   <cell>1BIT</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <comment/>
-   <image/>
-   <values>
-    <value>polygon: (0.645,0.255;0.645,0.445;-0.425,0.445;-0.425,0.825;0.645,0.825;0.645,3.965;0.875,3.965;0.875,0.255)</value>
+    <value>polygon: (0.56,-25.535;0.56,-23.94;-0.8,-23.94;-0.8,-23.66;0.56,-23.66;0.56,-20.235;-0.8,-20.235;-0.8,-19.955;0.56,-19.955;0.56,-16.565;-0.8,-16.565;-0.8,-16.285;0.56,-16.285;0.56,-12.86;-0.8,-12.86;-0.8,-12.58;0.56,-12.58;0.56,-9.19;-0.8,-9.19;-0.8,-8.91;0.56,-8.91;0.56,-5.485;-0.8,-5.485;-0.8,-5.205;0.56,-5.205;0.56,-1.815;-0.8,-1.815;-0.8,-1.535;0.56,-1.535;0.56,1.89;-0.8,1.89;-0.8,2.17;0.56,2.17;0.56,3.965;0.74,3.965;0.74,-25.535)</value>
    </values>
   </item>
   <item>
    <tags/>
    <category>'M2.4'</category>
-   <cell>1BIT</cell>
+   <cell>8BIT</cell>
    <visited>false</visited>
    <multiplicity>1</multiplicity>
    <comment/>
    <image/>
    <values>
-    <value>polygon: (-1.115,0.255;-1.115,0.655;-0.715,0.655;-0.715,0.255)</value>
+    <value>polygon: (-5.88,-25.535;-5.88,-25.135;-5.48,-25.135;-5.48,-25.535)</value>
    </values>
   </item>
   <item>
    <tags/>
    <category>'M2.4'</category>
-   <cell>1BIT</cell>
+   <cell>8BIT</cell>
    <visited>false</visited>
    <multiplicity>1</multiplicity>
    <comment/>
    <image/>
    <values>
-    <value>polygon: (-1.41,1.205;-1.41,1.605;-0.035,1.605;-0.035,1.205)</value>
+    <value>polygon: (-5.2,-25.535;-5.2,-25.135;-4.8,-25.135;-4.8,-25.535)</value>
    </values>
   </item>
   <item>
    <tags/>
    <category>'M2.4'</category>
-   <cell>1BIT</cell>
+   <cell>8BIT</cell>
    <visited>false</visited>
    <multiplicity>1</multiplicity>
    <comment/>
    <image/>
    <values>
-    <value>polygon: (0.245,1.6;0.245,2.33;-0.435,2.33;-0.435,2.73;0.645,2.73;0.645,1.6)</value>
+    <value>polygon: (-4.52,-25.535;-4.52,-25.135;-4.12,-25.135;-4.12,-25.535)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.4'</category>
+   <cell>8BIT</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (-3.84,-25.535;-3.84,-25.135;-3.44,-25.135;-3.44,-25.535)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.4'</category>
+   <cell>8BIT</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (-3.16,-25.535;-3.16,-25.135;-2.76,-25.135;-2.76,-25.535)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.4'</category>
+   <cell>8BIT</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (-2.48,-25.535;-2.48,-25.135;-2.08,-25.135;-2.08,-25.535)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.4'</category>
+   <cell>8BIT</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (-1.795,-25.535;-1.795,-25.135;-1.395,-25.135;-1.395,-25.535)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.4'</category>
+   <cell>8BIT</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (-1.115,-25.535;-1.115,-25.135;-0.715,-25.135;-0.715,-25.535)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.4'</category>
+   <cell>8BIT</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (-6.745,-24.625;-6.745,-24.225;-0.035,-24.225;-0.035,-24.625)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.4'</category>
+   <cell>8BIT</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (0.245,-24.225;0.245,-23.5;-0.435,-23.5;-0.435,-23.1;0.645,-23.1;0.645,-24.225)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.4'</category>
+   <cell>8BIT</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (-6.745,-20.92;-6.745,-20.52;-0.035,-20.52;-0.035,-20.92)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.4'</category>
+   <cell>8BIT</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (0.245,-20.52;0.245,-19.795;-0.435,-19.795;-0.435,-19.395;0.645,-19.395;0.645,-20.52)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.4'</category>
+   <cell>8BIT</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (-6.745,-17.25;-6.745,-16.85;-0.035,-16.85;-0.035,-17.25)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.4'</category>
+   <cell>8BIT</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (0.245,-16.85;0.245,-16.125;-0.435,-16.125;-0.435,-15.725;0.645,-15.725;0.645,-16.85)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.4'</category>
+   <cell>8BIT</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (-6.745,-13.545;-6.745,-13.145;-0.035,-13.145;-0.035,-13.545)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.4'</category>
+   <cell>8BIT</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (0.245,-13.145;0.245,-12.42;-0.435,-12.42;-0.435,-12.02;0.645,-12.02;0.645,-13.145)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.4'</category>
+   <cell>8BIT</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (-6.745,-9.875;-6.745,-9.475;-0.035,-9.475;-0.035,-9.875)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.4'</category>
+   <cell>8BIT</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (0.245,-9.475;0.245,-8.75;-0.435,-8.75;-0.435,-8.35;0.645,-8.35;0.645,-9.475)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.4'</category>
+   <cell>8BIT</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (-6.745,-6.17;-6.745,-5.77;-0.035,-5.77;-0.035,-6.17)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.4'</category>
+   <cell>8BIT</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (0.245,-5.77;0.245,-5.045;-0.435,-5.045;-0.435,-4.645;0.645,-4.645;0.645,-5.77)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.4'</category>
+   <cell>8BIT</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (-6.745,-2.5;-6.745,-2.1;-0.035,-2.1;-0.035,-2.5)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.4'</category>
+   <cell>8BIT</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (0.245,-2.1;0.245,-1.375;-0.435,-1.375;-0.435,-0.975;0.645,-0.975;0.645,-2.1)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.4'</category>
+   <cell>8BIT</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (-6.745,1.205;-6.745,1.605;-0.035,1.605;-0.035,1.205)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.4'</category>
+   <cell>8BIT</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (0.245,1.605;0.245,2.33;-0.435,2.33;-0.435,2.73;0.645,2.73;0.645,1.605)</value>
    </values>
   </item>
   <item>
    <tags/>
    <category>'M3.4'</category>
-   <cell>1BIT</cell>
+   <cell>8BIT</cell>
    <visited>false</visited>
    <multiplicity>1</multiplicity>
    <comment/>
    <image/>
    <values>
-    <value>polygon: (-1.115,0.255;-1.115,1.605;-0.715,1.605;-0.715,0.255)</value>
+    <value>polygon: (-5.88,-25.535;-5.88,-24.225;-5.48,-24.225;-5.48,-25.535)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M3.4'</category>
+   <cell>8BIT</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (-5.2,-25.535;-5.2,-20.52;-4.8,-20.52;-4.8,-25.535)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M3.4'</category>
+   <cell>8BIT</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (-4.52,-25.535;-4.52,-16.85;-4.12,-16.85;-4.12,-25.535)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M3.4'</category>
+   <cell>8BIT</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (-3.84,-25.535;-3.84,-13.145;-3.44,-13.145;-3.44,-25.535)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M3.4'</category>
+   <cell>8BIT</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (-3.16,-25.535;-3.16,-9.475;-2.76,-9.475;-2.76,-25.535)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M3.4'</category>
+   <cell>8BIT</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (-2.48,-25.535;-2.48,-5.77;-2.08,-5.77;-2.08,-25.535)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M3.4'</category>
+   <cell>8BIT</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (-1.795,-25.535;-1.795,-2.1;-1.395,-2.1;-1.395,-25.535)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M3.4'</category>
+   <cell>8BIT</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (-1.115,-25.535;-1.115,1.605;-0.715,1.605;-0.715,-25.535)</value>
    </values>
   </item>
  </items>

@@ -1,0 +1,22 @@
+** sch_path: /foss/designs/ENGN1600-CAD5/8BIT.sch
+.subckt 8BIT Sh Shb OUT0 Ax IN0 Ax-1 IN1 OUT1 Ax-2 IN2 Ax-3 IN3 OUT2 OUT3 OUT4 Ax-4 IN4 Ax-5 IN5 OUT5 Ax-6 IN6 Ax-7 IN7 OUT6 OUT7
+*.PININFO Sh:I Shb:I OUT0:O Ax:I IN0:I Ax-1:I IN1:I OUT1:O Ax-2:I IN2:I Ax-3:I IN3:I OUT2:O OUT3:O OUT4:O Ax-4:I IN4:I Ax-5:I
+*+ IN5:I OUT5:O Ax-6:I IN6:I Ax-7:I IN7:I OUT6:O OUT7:O
+M2 OUT0 Sh IN0 GND nfet_03v3 L=0.28u W=0.5u nf=1 m=1
+M1 OUT0 Shb Ax GND nfet_03v3 L=0.28u W=0.5u nf=1 m=1
+M3 OUT1 Sh IN1 GND nfet_03v3 L=0.28u W=0.5u nf=1 m=1
+M4 OUT1 Shb Ax-1 GND nfet_03v3 L=0.28u W=0.5u nf=1 m=1
+M5 OUT2 Sh IN2 GND nfet_03v3 L=0.28u W=0.5u nf=1 m=1
+M6 OUT2 Shb Ax-2 GND nfet_03v3 L=0.28u W=0.5u nf=1 m=1
+M7 OUT3 Sh IN3 GND nfet_03v3 L=0.28u W=0.5u nf=1 m=1
+M8 OUT3 Shb Ax-3 GND nfet_03v3 L=0.28u W=0.5u nf=1 m=1
+M9 OUT4 Sh IN4 GND nfet_03v3 L=0.28u W=0.5u nf=1 m=1
+M10 OUT4 Shb Ax-4 GND nfet_03v3 L=0.28u W=0.5u nf=1 m=1
+M11 OUT5 Sh IN5 GND nfet_03v3 L=0.28u W=0.5u nf=1 m=1
+M12 OUT5 Shb Ax-5 GND nfet_03v3 L=0.28u W=0.5u nf=1 m=1
+M13 OUT6 Sh IN6 GND nfet_03v3 L=0.28u W=0.5u nf=1 m=1
+M14 OUT6 Shb Ax-6 GND nfet_03v3 L=0.28u W=0.5u nf=1 m=1
+M15 OUT7 Sh IN7 GND nfet_03v3 L=0.28u W=0.5u nf=1 m=1
+M16 OUT7 Shb Ax-7 GND nfet_03v3 L=0.28u W=0.5u nf=1 m=1
+.ends
+.GLOBAL GND

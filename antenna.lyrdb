@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <report-database>
  <description>GF180 ANTENNA DRC Run Report at</description>
- <original-file>/foss/designs/ENGN1600-CAD5/1BIT.gds</original-file>
+ <original-file>/foss/designs/ENGN1600-CAD5/8BIT.gds</original-file>
  <generator>drc: script='/foss/pdks/gf180mcuD/libs.tech/klayout/macros/gf180mcu_drc.lydrc'</generator>
- <top-cell>1BIT</top-cell>
+ <top-cell>8BIT</top-cell>
  <tags>
  </tags>
  <categories>
@@ -139,7 +139,7 @@
  </categories>
  <cells>
   <cell>
-   <name>1BIT</name>
+   <name>8BIT</name>
    <variant/>
    <layout-name/>
    <references>
