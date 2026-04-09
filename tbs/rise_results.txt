@@ -1,0 +1,15 @@
+tpd_rise_1 = 3.969874e-10
+tpd_rise_2 = 3.945751e-10
+tpd_rise_3 = 3.980083e-10
+tpd_rise_4 = 3.936471e-10
+tpd_rise_5 = 3.971636e-10
+tpd_rise_6 = 3.947657e-10
+tpd_rise_7 = 3.981833e-10
+tpd_rise_8 = 3.934571e-10
+tpd_rise_9 = 3.969881e-10
+tpd_rise_10 = 3.945771e-10
+tpd_rise_11 = 3.980101e-10
+tpd_rise_12 = 3.936491e-10
+tpd_rise_13 = 3.971651e-10
+tpd_rise_14 = 3.947678e-10
+tpd_rise_15 = 3.981853e-10
