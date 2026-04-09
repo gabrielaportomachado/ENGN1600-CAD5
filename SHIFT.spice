@@ -3,38 +3,38 @@
 + OUT10 OUT11 OUT12 OUT13 OUT14 OUT15 Sh2 Sh2b Sh4 Sh4b Sh8 Sh8b
 *.PININFO Sh1:I Sh1b:I A0:I A1:I A2:I A3:I A4:I A5:I A6:I A7:I A8:I A9:I A10:I A11:I A12:I A13:I A14:I A15:I OUT0:O OUT1:O OUT2:O
 *+ OUT3:O OUT4:O OUT5:O OUT6:O OUT7:O OUT8:O OUT9:O OUT10:O OUT11:O OUT12:O OUT13:O OUT14:O OUT15:O Sh2:I Sh2b:I Sh4:I Sh4b:I Sh8:I Sh8b:I
-x1 Sh1b Sh1 A0 GND net9 1BIT
-x2 Sh1b Sh1 A1 A0 net10 1BIT
-x3 Sh1b Sh1 A2 A1 net11 1BIT
-x4 Sh1b Sh1 A3 A2 net12 1BIT
-x5 Sh1b Sh1 A4 A3 net13 1BIT
-x6 Sh1b Sh1 A5 A4 net14 1BIT
-x7 Sh1b Sh1 A6 A5 net15 1BIT
-x8 Sh1b Sh1 A7 A6 net16 1BIT
-x9 Sh1b Sh1 A8 A7 net17 1BIT
-x10 Sh1b Sh1 A9 A8 net18 1BIT
-x11 Sh1b Sh1 A10 A9 net19 1BIT
-x12 Sh1b Sh1 A11 A10 net20 1BIT
-x13 Sh1b Sh1 A12 A11 net21 1BIT
-x14 Sh1b Sh1 A13 A12 net22 1BIT
-x15 Sh1b Sh1 A14 A13 net23 1BIT
-x16 Sh1b Sh1 A15 A14 net24 1BIT
-x17 Sh2b Sh2 net9 GND net25 net26 GND net10 2BIT
-x18 Sh2b Sh2 net11 net9 net27 net28 net10 net12 2BIT
-x19 Sh2b Sh2 net13 net11 net29 net30 net12 net14 2BIT
-x20 Sh2b Sh2 net15 net13 net31 net32 net14 net16 2BIT
-x21 Sh2b Sh2 net17 net15 net33 net34 net16 net18 2BIT
-x22 Sh2b Sh2 net19 net17 net35 net36 net18 net20 2BIT
-x23 Sh2b Sh2 net21 net19 net37 net38 net20 net22 2BIT
-x24 Sh2b Sh2 net23 net21 net39 net40 net22 net24 2BIT
-x25 Sh4b Sh4 GND net25 net41 net43 net42 net44 GND net26 GND net27 GND net28 4BIT
-x26 Sh4b Sh4 net25 net29 net45 net46 net47 net48 net26 net30 net27 net31 net28 net32 4BIT
-x27 Sh4b Sh4 net29 net33 net49 net51 net50 net52 net30 net34 net31 net35 net32 net36 4BIT
-x29 Sh4b Sh4 net33 net37 net53 net54 net55 net56 net34 net38 net35 net39 net36 net40 4BIT
-x28 Sh8b Sh8 net41 GND net1 net2 net3 net4 net43 GND GND net42 GND net44 net45 GND net5 net6 net7 net8 GND net46 GND net47 GND
-+ net48 8BIT
-x30 Sh8b Sh8 net49 net41 OUT8 OUT9 OUT10 OUT11 net51 net43 net42 net50 net44 net52 net53 net45 OUT12 OUT13 OUT14 OUT15 net46 net54
-+ net47 net55 net48 net56 8BIT
+x1 Sh1b Sh1 A0 GND net13 1BIT
+x2 Sh1b Sh1 A1 A0 net14 1BIT
+x3 Sh1b Sh1 A2 A1 net15 1BIT
+x4 Sh1b Sh1 A3 A2 net16 1BIT
+x5 Sh1b Sh1 A4 A3 net17 1BIT
+x6 Sh1b Sh1 A5 A4 net18 1BIT
+x7 Sh1b Sh1 A6 A5 net19 1BIT
+x8 Sh1b Sh1 A7 A6 net20 1BIT
+x9 Sh1b Sh1 A8 A7 net21 1BIT
+x10 Sh1b Sh1 A9 A8 net22 1BIT
+x11 Sh1b Sh1 A10 A9 net23 1BIT
+x12 Sh1b Sh1 A11 A10 net24 1BIT
+x13 Sh1b Sh1 A12 A11 net25 1BIT
+x14 Sh1b Sh1 A13 A12 net26 1BIT
+x15 Sh1b Sh1 A14 A13 net27 1BIT
+x16 Sh1b Sh1 A15 A14 net28 1BIT
+x17 Sh2b Sh2 net13 GND net29 net30 GND net14 2BIT
+x18 Sh2b Sh2 net15 net13 net31 net32 net14 net16 2BIT
+x19 Sh2b Sh2 net17 net15 net33 net34 net16 net18 2BIT
+x20 Sh2b Sh2 net19 net17 net35 net36 net18 net20 2BIT
+x21 Sh2b Sh2 net21 net19 net37 net38 net20 net22 2BIT
+x22 Sh2b Sh2 net23 net21 net39 net40 net22 net24 2BIT
+x23 Sh2b Sh2 net25 net23 net41 net42 net24 net26 2BIT
+x24 Sh2b Sh2 net27 net25 net43 net44 net26 net28 2BIT
+x25 Sh4b Sh4 GND net29 net45 net47 net46 net48 GND net30 GND net31 GND net32 4BIT
+x26 Sh4b Sh4 net29 net33 net49 net50 net51 net52 net30 net34 net31 net35 net32 net36 4BIT
+x27 Sh4b Sh4 net33 net37 net53 net55 net54 net56 net34 net38 net35 net39 net36 net40 4BIT
+x29 Sh4b Sh4 net37 net41 net57 net58 net59 net60 net38 net42 net39 net43 net40 net44 4BIT
+x28 Sh8b Sh8 net45 GND net1 net2 net3 net4 net47 GND GND net46 GND net48 net49 GND net5 net6 net7 net8 GND net50 GND net51 GND
++ net52 8BIT
+x30 Sh8b Sh8 net53 net45 net9 net10 net11 net12 net55 net47 net46 net54 net48 net56 net57 net49 OUT12 OUT13 OUT14 OUT15 net50
++ net58 net51 net59 net52 net60 8BIT
 x31 OUT0 net1 BUF
 x32 OUT2 net3 BUF
 x33 OUT3 net4 BUF
@@ -43,6 +43,10 @@ x35 OUT4 net5 BUF
 x36 OUT5 net6 BUF
 x37 OUT6 net7 BUF
 x38 OUT7 net8 BUF
+x39 OUT8 net9 BUF
+x40 OUT9 net10 BUF
+x41 OUT10 net11 BUF
+x42 OUT11 net12 BUF
 .ends
 
 * expanding   symbol:  1BIT.sym # of pins=5
