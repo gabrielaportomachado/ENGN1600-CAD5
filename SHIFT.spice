@@ -1,45 +1,49 @@
-** sch_path: /foss/designs/ENGN1600-CAD5/SHIFT.sch
+** sch_path: /foss/designs/CAD5/SHIFT.sch
 .subckt SHIFT Sh1 Sh1b A0 A1 A2 A3 A4 A5 A6 A7 A8 A9 A10 A11 A12 A13 A14 A15 OUT0 OUT1 OUT2 OUT3 OUT4 OUT5 OUT6 OUT7 OUT8 OUT9
 + OUT10 OUT11 OUT12 OUT13 OUT14 OUT15 Sh2 Sh2b Sh4 Sh4b Sh8 Sh8b
 *.PININFO Sh1:I Sh1b:I A0:I A1:I A2:I A3:I A4:I A5:I A6:I A7:I A8:I A9:I A10:I A11:I A12:I A13:I A14:I A15:I OUT0:O OUT1:O OUT2:O
 *+ OUT3:O OUT4:O OUT5:O OUT6:O OUT7:O OUT8:O OUT9:O OUT10:O OUT11:O OUT12:O OUT13:O OUT14:O OUT15:O Sh2:I Sh2b:I Sh4:I Sh4b:I Sh8:I Sh8b:I
-x1 Sh1b Sh1 A0 GND net1 1BIT
-x2 Sh1b Sh1 A1 A0 net2 1BIT
-x3 Sh1b Sh1 A2 A1 net3 1BIT
-x4 Sh1b Sh1 A3 A2 net4 1BIT
-x5 Sh1b Sh1 A4 A3 net5 1BIT
-x6 Sh1b Sh1 A5 A4 net6 1BIT
-x7 Sh1b Sh1 A6 A5 net7 1BIT
-x8 Sh1b Sh1 A7 A6 net8 1BIT
-x9 Sh1b Sh1 A8 A7 net9 1BIT
-x10 Sh1b Sh1 A9 A8 net10 1BIT
-x11 Sh1b Sh1 A10 A9 net11 1BIT
-x12 Sh1b Sh1 A11 A10 net12 1BIT
-x13 Sh1b Sh1 A12 A11 net13 1BIT
-x14 Sh1b Sh1 A13 A12 net14 1BIT
-x15 Sh1b Sh1 A14 A13 net15 1BIT
-x16 Sh1b Sh1 A15 A14 net16 1BIT
-x17 Sh2b Sh2 net1 GND net17 net18 GND net2 2BIT
-x18 Sh2b Sh2 net3 net1 net19 net20 net2 net4 2BIT
-x19 Sh2b Sh2 net5 net3 net21 net22 net4 net6 2BIT
-x20 Sh2b Sh2 net7 net5 net23 net24 net6 net8 2BIT
-x21 Sh2b Sh2 net9 net7 net25 net26 net8 net10 2BIT
-x22 Sh2b Sh2 net11 net9 net27 net28 net10 net12 2BIT
-x23 Sh2b Sh2 net13 net11 net29 net30 net12 net14 2BIT
-x24 Sh2b Sh2 net15 net13 net31 net32 net14 net16 2BIT
-x25 Sh4b Sh4 GND net17 net33 net35 net34 net36 GND net18 GND net19 GND net20 4BIT
-x26 Sh4b Sh4 net17 net21 net37 net38 net39 net40 net18 net22 net19 net23 net20 net24 4BIT
-x27 Sh4b Sh4 net21 net25 net41 net43 net42 net44 net22 net26 net23 net27 net24 net28 4BIT
-x29 Sh4b Sh4 net25 net29 net45 net46 net47 net48 net26 net30 net27 net31 net28 net32 4BIT
-x28 Sh8b Sh8 net33 GND OUT0 OUT1 OUT2 OUT3 net35 GND GND net34 GND net36 net37 GND OUT4 OUT5 OUT6 OUT7 GND net38 GND net39 GND
-+ net40 8BIT
-x30 Sh8b Sh8 net41 net33 OUT8 OUT9 OUT10 OUT11 net43 net35 net34 net42 net36 net44 net45 net37 OUT12 OUT13 OUT14 OUT15 net38 net46
-+ net39 net47 net40 net48 8BIT
+x1 Sh1b Sh1 A0 GND net5 1BIT
+x2 Sh1b Sh1 A1 A0 net6 1BIT
+x3 Sh1b Sh1 A2 A1 net7 1BIT
+x4 Sh1b Sh1 A3 A2 net8 1BIT
+x5 Sh1b Sh1 A4 A3 net9 1BIT
+x6 Sh1b Sh1 A5 A4 net10 1BIT
+x7 Sh1b Sh1 A6 A5 net11 1BIT
+x8 Sh1b Sh1 A7 A6 net12 1BIT
+x9 Sh1b Sh1 A8 A7 net13 1BIT
+x10 Sh1b Sh1 A9 A8 net14 1BIT
+x11 Sh1b Sh1 A10 A9 net15 1BIT
+x12 Sh1b Sh1 A11 A10 net16 1BIT
+x13 Sh1b Sh1 A12 A11 net17 1BIT
+x14 Sh1b Sh1 A13 A12 net18 1BIT
+x15 Sh1b Sh1 A14 A13 net19 1BIT
+x16 Sh1b Sh1 A15 A14 net20 1BIT
+x17 Sh2b Sh2 net5 GND net21 net22 GND net6 2BIT
+x18 Sh2b Sh2 net7 net5 net23 net24 net6 net8 2BIT
+x19 Sh2b Sh2 net9 net7 net25 net26 net8 net10 2BIT
+x20 Sh2b Sh2 net11 net9 net27 net28 net10 net12 2BIT
+x21 Sh2b Sh2 net13 net11 net29 net30 net12 net14 2BIT
+x22 Sh2b Sh2 net15 net13 net31 net32 net14 net16 2BIT
+x23 Sh2b Sh2 net17 net15 net33 net34 net16 net18 2BIT
+x24 Sh2b Sh2 net19 net17 net35 net36 net18 net20 2BIT
+x25 Sh4b Sh4 GND net21 net37 net39 net38 net40 GND net22 GND net23 GND net24 4BIT
+x26 Sh4b Sh4 net21 net25 net41 net42 net43 net44 net22 net26 net23 net27 net24 net28 4BIT
+x27 Sh4b Sh4 net25 net29 net45 net47 net46 net48 net26 net30 net27 net31 net28 net32 4BIT
+x29 Sh4b Sh4 net29 net33 net49 net50 net51 net52 net30 net34 net31 net35 net32 net36 4BIT
+x28 Sh8b Sh8 net37 GND net1 net2 net3 net4 net39 GND GND net38 GND net40 net41 GND OUT4 OUT5 OUT6 OUT7 GND net42 GND net43 GND
++ net44 8BIT
+x30 Sh8b Sh8 net45 net37 OUT8 OUT9 OUT10 OUT11 net47 net39 net38 net46 net40 net48 net49 net41 OUT12 OUT13 OUT14 OUT15 net42 net50
++ net43 net51 net44 net52 8BIT
+x31 OUT0 net1 BUF
+x32 OUT2 net3 BUF
+x33 OUT3 net4 BUF
+x34 OUT1 net2 BUF
 .ends
 
 * expanding   symbol:  1BIT.sym # of pins=5
-** sym_path: /foss/designs/ENGN1600-CAD5/1BIT.sym
-** sch_path: /foss/designs/ENGN1600-CAD5/1BIT.sch
+** sym_path: /foss/designs/CAD5/1BIT.sym
+** sch_path: /foss/designs/CAD5/1BIT.sch
 .subckt 1BIT Shb Sh Ax IN0 OUT
 *.PININFO Sh:I Shb:I OUT:O Ax:I IN0:I
 M2 OUT Sh IN0 GND nfet_03v3 L=0.28u W=0.5u nf=1 m=1
@@ -47,9 +51,9 @@ M1 OUT Shb Ax GND nfet_03v3 L=0.28u W=0.5u nf=1 m=1
 .ends
 
 
-* expanding   symbol:  ENGN1600-CAD5/2BIT.sym # of pins=8
-** sym_path: /foss/designs/ENGN1600-CAD5/2BIT.sym
-** sch_path: /foss/designs/ENGN1600-CAD5/2BIT.sch
+* expanding   symbol:  2BIT.sym # of pins=8
+** sym_path: /foss/designs/CAD5/2BIT.sym
+** sch_path: /foss/designs/CAD5/2BIT.sch
 .subckt 2BIT Shb Sh Ax IN0 OUT0 OUT1 IN1 Ax-1
 *.PININFO Sh:I Shb:I OUT0:O Ax:I IN0:I Ax-1:I IN1:I OUT1:O
 M2 OUT0 Sh IN0 GND nfet_03v3 L=0.28u W=0.5u nf=1 m=1
@@ -59,9 +63,9 @@ M4 OUT1 Shb Ax-1 GND nfet_03v3 L=0.28u W=0.5u nf=1 m=1
 .ends
 
 
-* expanding   symbol:  ENGN1600-CAD5/4BIT.sym # of pins=14
-** sym_path: /foss/designs/ENGN1600-CAD5/4BIT.sym
-** sch_path: /foss/designs/ENGN1600-CAD5/4BIT.sch
+* expanding   symbol:  4BIT.sym # of pins=14
+** sym_path: /foss/designs/CAD5/4BIT.sym
+** sch_path: /foss/designs/CAD5/4BIT.sch
 .subckt 4BIT Shb Sh IN0 Ax OUT0 OUT1 OUT2 OUT3 IN1 Ax-1 IN2 Ax-2 IN3 Ax-3
 *.PININFO Sh:I Shb:I OUT0:O Ax:I IN0:I Ax-1:I IN1:I OUT1:O Ax-2:I IN2:I Ax-3:I IN3:I OUT2:O OUT3:O
 M2 OUT0 Sh IN0 GND nfet_03v3 L=0.28u W=0.5u nf=1 m=1
@@ -75,9 +79,9 @@ M8 OUT3 Shb Ax-3 GND nfet_03v3 L=0.28u W=0.5u nf=1 m=1
 .ends
 
 
-* expanding   symbol:  ENGN1600-CAD5/8BIT.sym # of pins=26
-** sym_path: /foss/designs/ENGN1600-CAD5/8BIT.sym
-** sch_path: /foss/designs/ENGN1600-CAD5/8BIT.sch
+* expanding   symbol:  8BIT.sym # of pins=26
+** sym_path: /foss/designs/CAD5/8BIT.sym
+** sch_path: /foss/designs/CAD5/8BIT.sch
 .subckt 8BIT Shb Sh Ax IN0 OUT0 OUT1 OUT2 OUT3 Ax-1 IN1 IN2 Ax-2 IN3 Ax-3 Ax-4 IN4 OUT4 OUT5 OUT6 OUT7 IN5 Ax-5 IN6 Ax-6 IN7 Ax-7
 *.PININFO Sh:I Shb:I OUT0:O Ax:I IN0:I Ax-1:I IN1:I OUT1:O Ax-2:I IN2:I Ax-3:I IN3:I OUT2:O OUT3:O OUT4:O Ax-4:I IN4:I Ax-5:I
 *+ IN5:I OUT5:O Ax-6:I IN6:I Ax-7:I IN7:I OUT6:O OUT7:O
@@ -99,4 +103,17 @@ M15 OUT7 Sh IN7 GND nfet_03v3 L=0.28u W=0.5u nf=1 m=1
 M16 OUT7 Shb Ax-7 GND nfet_03v3 L=0.28u W=0.5u nf=1 m=1
 .ends
 
+
+* expanding   symbol:  BUF.sym # of pins=2
+** sym_path: /foss/designs/CAD5/BUF.sym
+** sch_path: /foss/designs/CAD5/BUF.sch
+.subckt BUF OUT IN
+*.PININFO IN:I OUT:O
+M1 net1 IN VDD VDD pfet_03v3 L=0.28u W=1u nf=1 m=1
+M2 net1 IN GND GND nfet_03v3 L=0.28u W=0.5u nf=1 m=1
+M3 OUT net1 VDD VDD pfet_03v3 L=0.28u W=1u nf=1 m=1
+M4 OUT net1 GND GND nfet_03v3 L=0.28u W=0.5u nf=1 m=1
+.ends
+
 .GLOBAL GND
+.GLOBAL VDD
