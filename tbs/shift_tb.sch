@@ -169,8 +169,7 @@ value="
 .include $::180MCU_MODELS/design.ngspice
 .lib $::180MCU_MODELS/sm141064.ngspice typical
 "}
-C {code_shown.sym} 500 -855 0 0 {name=s1 only_toplevel=false value="
-.control
+C {code_shown.sym} 500 -855 0 0 {name=s1 only_toplevel=false value=".control
 let vlow = 0
 let vhigh = 3.3
 
@@ -192,90 +191,305 @@ alter VA2  = $&vlow
 alter VA1  = $&vhigh
 alter VA0  = $&vlow
 
-* --- Define Shift Control Values ---
-* Setting Sh1 high, others low (Shift 1)
+* --- SHIFT 1 (0001) ---
 alter vSh8 = $&vlow
 alter vSh4 = $&vlow
 alter vSh2 = $&vlow
 alter vSh1 = $&vhigh
 
-* Run transient
 tran 1n 40n
 
-* --- Digitizing each bit (Measurement at 30ns) ---
-meas tran v0  find v(OUT0)  at=30n
-meas tran v1  find v(OUT1)  at=30n
-meas tran v2  find v(OUT2)  at=30n
-meas tran v3  find v(OUT3)  at=30n
-meas tran v4  find v(OUT4)  at=30n
-meas tran v5  find v(OUT5)  at=30n
-meas tran v6  find v(OUT6)  at=30n
-meas tran v7  find v(OUT7)  at=30n
-meas tran v8  find v(OUT8)  at=30n
-meas tran v9  find v(OUT9)  at=30n
-meas tran v10 find v(OUT10) at=30n
-meas tran v11 find v(OUT11) at=30n
-meas tran v12 find v(OUT12) at=30n
-meas tran v13 find v(OUT13) at=30n
-meas tran v14 find v(OUT14) at=30n
-meas tran v15 find v(OUT15) at=30n
+meas tran v1_0  find v(OUT0)  at=30n
+meas tran v1_1  find v(OUT1)  at=30n
+meas tran v1_2  find v(OUT2)  at=30n
+meas tran v1_3  find v(OUT3)  at=30n
+meas tran v1_4  find v(OUT4)  at=30n
+meas tran v1_5  find v(OUT5)  at=30n
+meas tran v1_6  find v(OUT6)  at=30n
+meas tran v1_7  find v(OUT7)  at=30n
+meas tran v1_8  find v(OUT8)  at=30n
+meas tran v1_9  find v(OUT9)  at=30n
+meas tran v1_10 find v(OUT10) at=30n
+meas tran v1_11 find v(OUT11) at=30n
+meas tran v1_12 find v(OUT12) at=30n
+meas tran v1_13 find v(OUT13) at=30n
+meas tran v1_14 find v(OUT14) at=30n
+meas tran v1_15 find v(OUT15) at=30n
 
-* Initialize tracking variables
-let decimal_result = 0
+let res1 = 0
+if v1_0 > 1.6
+  let res1 = res1 + 1
+end
+if v1_1 > 1.6
+  let res1 = res1 + 2
+end
+if v1_2 > 1.6
+  let res1 = res1 + 4
+end
+if v1_3 > 1.6
+  let res1 = res1 + 8
+end
+if v1_4 > 1.6
+  let res1 = res1 + 16
+end
+if v1_5 > 1.6
+  let res1 = res1 + 32
+end
+if v1_6 > 1.6
+  let res1 = res1 + 64
+end
+if v1_7 > 1.6
+  let res1 = res1 + 128
+end
+if v1_8 > 1.6
+  let res1 = res1 + 256
+end
+if v1_9 > 1.6
+  let res1 = res1 + 512
+end
+if v1_10 > 1.6
+  let res1 = res1 + 1024
+end
+if v1_11 > 1.6
+  let res1 = res1 + 2048
+end
+if v1_12 > 1.6
+  let res1 = res1 + 4096
+end
+if v1_13 > 1.6
+  let res1 = res1 + 8192
+end
+if v1_14 > 1.6
+  let res1 = res1 + 16384
+end
+if v1_15 > 1.6
+  let res1 = res1 + 32768
+end
+echo "1_gives_21844"
+print res1
+* --- SHIFT 2 (0010) ---
+alter vSh1 = $&vlow
+alter vSh2 = $&vhigh
 
-* Logic checks (Standard threshold 1.6V)
-if v0 > 1.6
-  let decimal_result = decimal_result + 1
-end
-if v1 > 1.6
-  let decimal_result = decimal_result + 2
-end
-if v2 > 1.6
-  let decimal_result = decimal_result + 4
-end
-if v3 > 1.6
-  let decimal_result = decimal_result + 8
-end
-if v4 > 1.6
-  let decimal_result = decimal_result + 16
-end
-if v5 > 1.6
-  let decimal_result = decimal_result + 32
-end
-if v6 > 1.6
-  let decimal_result = decimal_result + 64
-end
-if v7 > 1.6
-  let decimal_result = decimal_result + 128
-end
-if v8 > 1.6
-  let decimal_result = decimal_result + 256
-end
-if v9 > 1.6
-  let decimal_result = decimal_result + 512
-end
-if v10 > 1.6
-  let decimal_result = decimal_result + 1024
-end
-if v11 > 1.6
-  let decimal_result = decimal_result + 2048
-end
-if v12 > 1.6
-  let decimal_result = decimal_result + 4096
-end
-if v13 > 1.6
-  let decimal_result = decimal_result + 8192
-end
-if v14 > 1.6
-  let decimal_result = decimal_result + 16384
-end
-if v15 > 1.6
-  let decimal_result = decimal_result + 32768
-end
+tran 1n 40n
 
-* --- Output Results ---
-echo "hello?"
-print decimal_result
+meas tran v2_0  find v(OUT0)  at=30n
+meas tran v2_1  find v(OUT1)  at=30n
+meas tran v2_2  find v(OUT2)  at=30n
+meas tran v2_3  find v(OUT3)  at=30n
+meas tran v2_4  find v(OUT4)  at=30n
+meas tran v2_5  find v(OUT5)  at=30n
+meas tran v2_6  find v(OUT6)  at=30n
+meas tran v2_7  find v(OUT7)  at=30n
+meas tran v2_8  find v(OUT8)  at=30n
+meas tran v2_9  find v(OUT9)  at=30n
+meas tran v2_10 find v(OUT10) at=30n
+meas tran v2_11 find v(OUT11) at=30n
+meas tran v2_12 find v(OUT12) at=30n
+meas tran v2_13 find v(OUT13) at=30n
+meas tran v2_14 find v(OUT14) at=30n
+meas tran v2_15 find v(OUT15) at=30n
+
+let res2 = 0
+if v2_0 > 1.6
+  let res2 = res2 + 1
+end
+if v2_1 > 1.6
+  let res2 = res2 + 2
+end
+if v2_2 > 1.6
+  let res2 = res2 + 4
+end
+if v2_3 > 1.6
+  let res2 = res2 + 8
+end
+if v2_4 > 1.6
+  let res2 = res2 + 16
+end
+if v2_5 > 1.6
+  let res2 = res2 + 32
+end
+if v2_6 > 1.6
+  let res2 = res2 + 64
+end
+if v2_7 > 1.6
+  let res2 = res2 + 128
+end
+if v2_8 > 1.6
+  let res2 = res2 + 256
+end
+if v2_9 > 1.6
+  let res2 = res2 + 512
+end
+if v2_10 > 1.6
+  let res2 = res2 + 1024
+end
+if v2_11 > 1.6
+  let res2 = res2 + 2048
+end
+if v2_12 > 1.6
+  let res2 = res2 + 4096
+end
+if v2_13 > 1.6
+  let res2 = res2 + 8192
+end
+if v2_14 > 1.6
+  let res2 = res2 + 16384
+end
+if v2_15 > 1.6
+  let res2 = res2 + 32768
+end
+echo "2_gives_43688"
+print res2
+* --- SHIFT 3 (0011) ---
+alter vSh1 = $&vhigh
+alter vSh2 = $&vhigh
+
+tran 1n 40n
+
+meas tran v3_0  find v(OUT0)  at=30n
+meas tran v3_1  find v(OUT1)  at=30n
+meas tran v3_2  find v(OUT2)  at=30n
+meas tran v3_3  find v(OUT3)  at=30n
+meas tran v3_4  find v(OUT4)  at=30n
+meas tran v3_5  find v(OUT5)  at=30n
+meas tran v3_6  find v(OUT6)  at=30n
+meas tran v3_7  find v(OUT7)  at=30n
+meas tran v3_8  find v(OUT8)  at=30n
+meas tran v3_9  find v(OUT9)  at=30n
+meas tran v3_10 find v(OUT10) at=30n
+meas tran v3_11 find v(OUT11) at=30n
+meas tran v3_12 find v(OUT12) at=30n
+meas tran v3_13 find v(OUT13) at=30n
+meas tran v3_14 find v(OUT14) at=30n
+meas tran v3_15 find v(OUT15) at=30n
+
+let res3 = 0
+if v3_0 > 1.6
+  let res3 = res3 + 1
+end
+if v3_1 > 1.6
+  let res3 = res3 + 2
+end
+if v3_2 > 1.6
+  let res3 = res3 + 4
+end
+if v3_3 > 1.6
+  let res3 = res3 + 8
+end
+if v3_4 > 1.6
+  let res3 = res3 + 16
+end
+if v3_5 > 1.6
+  let res3 = res3 + 32
+end
+if v3_6 > 1.6
+  let res3 = res3 + 64
+end
+if v3_7 > 1.6
+  let res3 = res3 + 128
+end
+if v3_8 > 1.6
+  let res3 = res3 + 256
+end
+if v3_9 > 1.6
+  let res3 = res3 + 512
+end
+if v3_10 > 1.6
+  let res3 = res3 + 1024
+end
+if v3_11 > 1.6
+  let res3 = res3 + 2048
+end
+if v3_12 > 1.6
+  let res3 = res3 + 4096
+end
+if v3_13 > 1.6
+  let res3 = res3 + 8192
+end
+if v3_14 > 1.6
+  let res3 = res3 + 16384
+end
+if v3_15 > 1.6
+  let res3 = res3 + 32768
+end
+echo "3_gives_21840"
+print res3
+* --- SHIFT 4 (0100) ---
+alter vSh1 = $&vlow
+alter vSh2 = $&vlow
+alter vSh4 = $&vhigh
+
+tran 1n 40n
+
+meas tran v4_0  find v(OUT0)  at=30n
+meas tran v4_1  find v(OUT1)  at=30n
+meas tran v4_2  find v(OUT2)  at=30n
+meas tran v4_3  find v(OUT3)  at=30n
+meas tran v4_4  find v(OUT4)  at=30n
+meas tran v4_5  find v(OUT5)  at=30n
+meas tran v4_6  find v(OUT6)  at=30n
+meas tran v4_7  find v(OUT7)  at=30n
+meas tran v4_8  find v(OUT8)  at=30n
+meas tran v4_9  find v(OUT9)  at=30n
+meas tran v4_10 find v(OUT10) at=30n
+meas tran v4_11 find v(OUT11) at=30n
+meas tran v4_12 find v(OUT12) at=30n
+meas tran v4_13 find v(OUT13) at=30n
+meas tran v4_14 find v(OUT14) at=30n
+meas tran v4_15 find v(OUT15) at=30n
+
+let res4 = 0
+if v4_0 > 1.6
+  let res4 = res4 + 1
+end
+if v4_1 > 1.6
+  let res4 = res4 + 2
+end
+if v4_2 > 1.6
+  let res4 = res4 + 4
+end
+if v4_3 > 1.6
+  let res4 = res4 + 8
+end
+if v4_4 > 1.6
+  let res4 = res4 + 16
+end
+if v4_5 > 1.6
+  let res4 = res4 + 32
+end
+if v4_6 > 1.6
+  let res4 = res4 + 64
+end
+if v4_7 > 1.6
+  let res4 = res4 + 128
+end
+if v4_8 > 1.6
+  let res4 = res4 + 256
+end
+if v4_9 > 1.6
+  let res4 = res4 + 512
+end
+if v4_10 > 1.6
+  let res4 = res4 + 1024
+end
+if v4_11 > 1.6
+  let res4 = res4 + 2048
+end
+if v4_12 > 1.6
+  let res4 = res4 + 4096
+end
+if v4_13 > 1.6
+  let res4 = res4 + 8192
+end
+if v4_14 > 1.6
+  let res4 = res4 + 16384
+end
+if v4_15 > 1.6
+  let res4 = res4 + 32768
+end
+echo "4_gives_43680"
+print res4
 .endc
 "}
 C {vsource.sym} -1772.5 330 0 0 {name=V2 value=3.3 savecurrent=false}
