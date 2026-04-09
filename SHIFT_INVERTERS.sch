@@ -57,26 +57,26 @@ C {opin.sym} 250 50 0 0 {name=p28 lab=OUT12}
 C {opin.sym} 250 70 0 0 {name=p29 lab=OUT13}
 C {opin.sym} 250 90 0 0 {name=p30 lab=OUT14}
 C {opin.sym} 250 110 0 0 {name=p31 lab=OUT15}
-C {ipin.sym} -50 -110 0 0 {name=p6 lab=A0}
-C {ipin.sym} -50 -90 0 0 {name=p3 lab=A1}
-C {ipin.sym} -50 -30 0 0 {name=p4 lab=A2}
-C {ipin.sym} -50 -10 0 0 {name=p5 lab=A3}
-C {ipin.sym} -50 50 0 0 {name=p7 lab=A4}
-C {ipin.sym} -50 70 0 0 {name=p9 lab=A5}
-C {ipin.sym} -50 90 0 0 {name=p10 lab=A6}
-C {ipin.sym} -50 110 0 0 {name=p11 lab=A7}
-C {ipin.sym} -50 130 0 0 {name=p12 lab=A8}
-C {ipin.sym} -50 150 0 0 {name=p13 lab=A9}
-C {ipin.sym} -50 170 0 0 {name=p14 lab=A10}
-C {ipin.sym} -50 190 0 0 {name=p15 lab=A11}
-C {ipin.sym} -50 210 0 0 {name=p16 lab=A12}
-C {ipin.sym} -50 230 0 0 {name=p17 lab=A13}
-C {ipin.sym} -50 250 0 0 {name=p20 lab=A14}
-C {ipin.sym} -50 270 0 0 {name=p21 lab=A15}
-C {ipin.sym} -50 -170 0 0 {name=p1 lab=Sh1}
-C {ipin.sym} -50 -150 0 0 {name=p36 lab=Sh2}
-C {ipin.sym} -50 -70 0 0 {name=p47 lab=Sh4}
-C {ipin.sym} -50 30 0 0 {name=p60 lab=Sh8}
+C {ipin.sym} -50 -190 0 0 {name=p6 lab=A0}
+C {ipin.sym} -50 -170 0 0 {name=p3 lab=A1}
+C {ipin.sym} -50 -150 0 0 {name=p4 lab=A2}
+C {ipin.sym} -50 -130 0 0 {name=p5 lab=A3}
+C {ipin.sym} -50 -110 0 0 {name=p7 lab=A4}
+C {ipin.sym} -50 -90 0 0 {name=p9 lab=A5}
+C {ipin.sym} -50 -70 0 0 {name=p10 lab=A6}
+C {ipin.sym} -50 -50 0 0 {name=p11 lab=A7}
+C {ipin.sym} -50 -30 0 0 {name=p12 lab=A8}
+C {ipin.sym} -50 -10 0 0 {name=p13 lab=A9}
+C {ipin.sym} -50 10 0 0 {name=p14 lab=A10}
+C {ipin.sym} -50 30 0 0 {name=p15 lab=A11}
+C {ipin.sym} -50 50 0 0 {name=p16 lab=A12}
+C {ipin.sym} -50 70 0 0 {name=p17 lab=A13}
+C {ipin.sym} -50 90 0 0 {name=p20 lab=A14}
+C {ipin.sym} -50 110 0 0 {name=p21 lab=A15}
+C {ipin.sym} 0 -220 0 0 {name=p1 lab=Sh1}
+C {ipin.sym} 60 -220 1 0 {name=p36 lab=Sh2}
+C {ipin.sym} 130 -220 1 0 {name=p47 lab=Sh4}
+C {ipin.sym} 180 -220 1 0 {name=p60 lab=Sh8}
 C {symbols/nfet_03v3.sym} -530 -30 0 0 {name=M2
 L=0.28u
 W=2u
@@ -205,7 +205,7 @@ spiceprefix=X
 C {vdd.sym} -527.5 625 0 0 {name=l7 lab=VDD}
 C {lab_wire.sym} -567.5 692.5 0 0 {name=p34 sig_type=std_logic lab=Sh1}
 C {lab_wire.sym} -527.5 690 2 0 {name=p35 sig_type=std_logic lab=Sh1b}
-C {lab_wire.sym} -50 -190 0 0 {name=p40 sig_type=std_logic lab=Sh1b}
-C {lab_wire.sym} -50 -130 0 0 {name=p41 sig_type=std_logic lab=Sh2b}
-C {lab_wire.sym} -50 -50 0 0 {name=p42 sig_type=std_logic lab=Sh4b}
-C {lab_wire.sym} -50 10 0 0 {name=p43 sig_type=std_logic lab=Sh8b}
+C {lab_wire.sym} 20 -220 0 0 {name=p40 sig_type=std_logic lab=Sh1b}
+C {lab_wire.sym} 40 -220 0 0 {name=p41 sig_type=std_logic lab=Sh2b}
+C {lab_wire.sym} 110 -220 0 0 {name=p42 sig_type=std_logic lab=Sh4b}
+C {lab_wire.sym} 200 -220 2 0 {name=p43 sig_type=std_logic lab=Sh8b}

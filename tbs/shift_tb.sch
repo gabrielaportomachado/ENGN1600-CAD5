@@ -52,18 +52,20 @@ N -717.5 110 -717.5 140 {lab=A14}
 N -657.5 197.5 -657.5 212.5 {lab=GND}
 N -657.5 195 -657.5 197.5 {lab=GND}
 N -657.5 110 -657.5 140 {lab=A15}
-N -567.5 -287.5 -567.5 -272.5 {lab=GND}
-N -567.5 -290 -567.5 -287.5 {lab=GND}
-N -567.5 -375 -567.5 -345 {lab=Sh1}
-N -507.5 -287.5 -507.5 -272.5 {lab=GND}
-N -507.5 -290 -507.5 -287.5 {lab=GND}
-N -507.5 -375 -507.5 -345 {lab=Sh2}
-N -447.5 -287.5 -447.5 -272.5 {lab=GND}
-N -447.5 -290 -447.5 -287.5 {lab=GND}
-N -447.5 -375 -447.5 -345 {lab=Sh4}
-N -387.5 -287.5 -387.5 -272.5 {lab=GND}
-N -387.5 -290 -387.5 -287.5 {lab=GND}
-N -387.5 -375 -387.5 -345 {lab=Sh8}
+N -667.5 -287.5 -667.5 -272.5 {lab=GND}
+N -667.5 -290 -667.5 -287.5 {lab=GND}
+N -667.5 -375 -667.5 -345 {lab=Sh1}
+N -607.5 -287.5 -607.5 -272.5 {lab=GND}
+N -607.5 -290 -607.5 -287.5 {lab=GND}
+N -607.5 -375 -607.5 -345 {lab=Sh2}
+N -547.5 -287.5 -547.5 -272.5 {lab=GND}
+N -547.5 -290 -547.5 -287.5 {lab=GND}
+N -547.5 -375 -547.5 -345 {lab=Sh4}
+N -487.5 -287.5 -487.5 -272.5 {lab=GND}
+N -487.5 -290 -487.5 -287.5 {lab=GND}
+N -487.5 -375 -487.5 -345 {lab=Sh8}
+N -1772.5 280 -1772.5 300 {lab=VDD}
+N -1772.5 360 -1772.5 380 {lab=GND}
 C {SHIFT_INVERTERS.sym} 30 30 0 0 {name=x1}
 C {vsource.sym} -1107.5 -20 0 0 {name=vA0 value=3.3 savecurrent=false}
 C {gnd.sym} -1107.5 22.5 0 0 {name=l10 lab=GND}
@@ -129,18 +131,18 @@ C {lab_wire.sym} -120 90 0 0 {name=p29 sig_type=std_logic lab=A12}
 C {lab_wire.sym} -120 110 0 0 {name=p30 sig_type=std_logic lab=A13}
 C {lab_wire.sym} -120 130 0 0 {name=p31 sig_type=std_logic lab=A14}
 C {lab_wire.sym} -120 150 0 0 {name=p32 sig_type=std_logic lab=A15}
-C {vsource.sym} -567.5 -315 0 0 {name=vSh1 value=3.3 savecurrent=false}
-C {gnd.sym} -567.5 -272.5 0 0 {name=l17 lab=GND}
-C {lab_wire.sym} -567.5 -370 0 0 {name=p33 sig_type=std_logic lab=Sh1}
-C {vsource.sym} -507.5 -315 0 0 {name=vSh2 value=3.3 savecurrent=false}
-C {gnd.sym} -507.5 -272.5 0 0 {name=l18 lab=GND}
-C {lab_wire.sym} -507.5 -370 0 0 {name=p34 sig_type=std_logic lab=Sh2}
-C {vsource.sym} -447.5 -315 0 0 {name=vSh4 value=3.3 savecurrent=false}
-C {gnd.sym} -447.5 -272.5 0 0 {name=l19 lab=GND}
-C {lab_wire.sym} -447.5 -370 0 0 {name=p35 sig_type=std_logic lab=Sh4}
-C {vsource.sym} -387.5 -315 0 0 {name=vSh8 value=3.3 savecurrent=false}
-C {gnd.sym} -387.5 -272.5 0 0 {name=l20 lab=GND}
-C {lab_wire.sym} -387.5 -370 0 0 {name=p36 sig_type=std_logic lab=Sh8}
+C {vsource.sym} -667.5 -315 0 0 {name=vSh1 value=3.3 savecurrent=false}
+C {gnd.sym} -667.5 -272.5 0 0 {name=l17 lab=GND}
+C {lab_wire.sym} -667.5 -370 0 0 {name=p33 sig_type=std_logic lab=Sh1}
+C {vsource.sym} -607.5 -315 0 0 {name=vSh2 value=3.3 savecurrent=false}
+C {gnd.sym} -607.5 -272.5 0 0 {name=l18 lab=GND}
+C {lab_wire.sym} -607.5 -370 0 0 {name=p34 sig_type=std_logic lab=Sh2}
+C {vsource.sym} -547.5 -315 0 0 {name=vSh4 value=3.3 savecurrent=false}
+C {gnd.sym} -547.5 -272.5 0 0 {name=l19 lab=GND}
+C {lab_wire.sym} -547.5 -370 0 0 {name=p35 sig_type=std_logic lab=Sh4}
+C {vsource.sym} -487.5 -315 0 0 {name=vSh8 value=3.3 savecurrent=false}
+C {gnd.sym} -487.5 -272.5 0 0 {name=l20 lab=GND}
+C {lab_wire.sym} -487.5 -370 0 0 {name=p36 sig_type=std_logic lab=Sh8}
 C {lab_wire.sym} -30 -190 0 0 {name=p37 sig_type=std_logic lab=Sh1}
 C {lab_wire.sym} 10 -190 0 0 {name=p38 sig_type=std_logic lab=Sh2}
 C {lab_wire.sym} 50 -190 0 0 {name=p39 sig_type=std_logic lab=Sh4}
@@ -272,6 +274,10 @@ if v15 > 1.6
 end
 
 * --- Output Results ---
+echo "hello?"
 print decimal_result
 .endc
 "}
+C {vsource.sym} -1772.5 330 0 0 {name=V2 value=3.3 savecurrent=false}
+C {vdd.sym} -1772.5 280 0 0 {name=l21 lab=VDD}
+C {gnd.sym} -1772.5 380 0 0 {name=l22 lab=GND}
