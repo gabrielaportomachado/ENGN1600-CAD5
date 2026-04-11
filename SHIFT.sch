@@ -6,8 +6,8 @@ S {}
 E {}
 N -350 -370 -350 -340 {lab=Sh1}
 N -380 -370 -380 -340 {lab=Sh1b}
-N -10 -400 -10 -320 {lab=Sh1}
-N 10 -400 10 -320 {lab=Sh1b}
+N -10 -400 -10 -320 {lab=Sh1b}
+N 10 -400 10 -320 {lab=Sh1}
 N -330 -390 -330 -360 {lab=GND}
 N -130 -230 -80 -230 {lab=A0}
 N -100 -210 -80 -210 {lab=A0}
@@ -55,8 +55,8 @@ N -100 810 -100 830 {lab=A13}
 N -130 890 -80 890 {lab=A14}
 N -100 910 -80 910 {lab=A14}
 N -100 890 -100 910 {lab=A14}
-N -10 -320 -10 880 {lab=Sh1}
-N 10 -320 10 880 {lab=Sh1b}
+N -10 -320 -10 880 {lab=Sh1b}
+N 10 -320 10 880 {lab=Sh1}
 N -130 970 -80 970 {lab=A15}
 N 1120 -230 1160 -230 {lab=#net1}
 N 1120 -150 1160 -150 {lab=#net2}
@@ -78,8 +78,8 @@ N 140 -290 220 -290 {lab=GND}
 N 80 -230 220 -230 {lab=#net17}
 N 80 -150 220 -150 {lab=#net18}
 N 140 -210 220 -210 {lab=GND}
-N 290 -400 290 -320 {lab=Sh2}
-N 310 -400 310 -320 {lab=Sh2b}
+N 290 -400 290 -320 {lab=Sh2b}
+N 310 -400 310 -320 {lab=Sh2}
 N -350 -250 -350 -220 {lab=Sh2}
 N -380 -250 -380 -220 {lab=Sh2b}
 N 80 -70 220 -70 {lab=#net19}
@@ -124,8 +124,8 @@ N 200 830 220 830 {lab=#net29}
 N 200 730 200 830 {lab=#net29}
 N 180 910 220 910 {lab=#net30}
 N 180 810 180 910 {lab=#net30}
-N 290 -320 290 800 {lab=Sh2}
-N 310 -320 310 800 {lab=Sh2b}
+N 290 -320 290 800 {lab=Sh2b}
+N 310 -320 310 800 {lab=Sh2}
 N 440 -290 520 -290 {lab=GND}
 N 440 -210 520 -210 {lab=GND}
 N 440 -130 520 -130 {lab=GND}
@@ -170,10 +170,10 @@ N 380 730 520 730 {lab=#net45}
 N 380 810 520 810 {lab=#net46}
 N 380 890 520 890 {lab=#net47}
 N 380 970 520 970 {lab=#net48}
-N 590 -400 590 -320 {lab=Sh4}
-N 610 -400 610 -320 {lab=Sh4b}
-N 590 -320 590 640 {lab=Sh4}
-N 610 -320 610 640 {lab=Sh4b}
+N 590 -400 590 -320 {lab=Sh4b}
+N 610 -400 610 -320 {lab=Sh4}
+N 590 -320 590 640 {lab=Sh4b}
+N 610 -320 610 640 {lab=Sh4}
 N -350 -120 -350 -90 {lab=Sh4}
 N -380 -120 -380 -90 {lab=Sh4b}
 N 880 -290 960 -290 {lab=GND}
@@ -220,11 +220,11 @@ N 680 810 960 810 {lab=#net62}
 N 680 890 960 890 {lab=#net63}
 N 680 970 960 970 {lab=#net64}
 N 1030 -400 1030 -320 {lab=Sh8}
-N 1050 -400 1050 -320 {lab=Sh8b}
+N 1050 -400 1050 -320 {lab=#net65}
 N -350 10 -350 40 {lab=Sh8}
 N -380 10 -380 40 {lab=Sh8b}
 N 1030 -320 1030 320 {lab=Sh8}
-N 1050 -320 1050 320 {lab=Sh8b}
+N 1050 -320 1050 320 {lab=#net65}
 N 860 500 860 510 {lab=#net50}
 N 1230 -230 1280 -230 {lab=OUT0}
 N 1230 -150 1280 -150 {lab=OUT1}
@@ -245,8 +245,8 @@ N 1230 970 1280 970 {lab=OUT15}
 C {1BIT.sym} 0 -260 0 0 {name=x1}
 C {ipin.sym} -350 -370 1 0 {name=p1 lab=Sh1}
 C {ipin.sym} -380 -370 1 0 {name=p2 lab=Sh1b}
-C {lab_wire.sym} -10 -330 1 0 {name=p18 sig_type=std_logic lab=Sh1}
-C {lab_wire.sym} 10 -330 1 0 {name=p19 sig_type=std_logic lab=Sh1b}
+C {lab_wire.sym} 10 -350 1 0 {name=p18 sig_type=std_logic lab=Sh1}
+C {lab_wire.sym} -10 -350 1 0 {name=p19 sig_type=std_logic lab=Sh1b}
 C {gnd.sym} -330 -360 0 0 {name=l2 lab=GND}
 C {ipin.sym} -130 -230 0 0 {name=p6 lab=A0}
 C {1BIT.sym} 0 -180 0 0 {name=x2}
@@ -299,8 +299,8 @@ C {opin.sym} 1280 970 0 0 {name=p31 lab=OUT15}
 C {2BIT.sym} 300 -240 0 0 {name=x17}
 C {lab_wire.sym} 150 -290 2 0 {name=p32 sig_type=std_logic lab=GND}
 C {lab_wire.sym} 150 -210 2 0 {name=p33 sig_type=std_logic lab=GND}
-C {lab_wire.sym} 290 -330 1 0 {name=p34 sig_type=std_logic lab=Sh2}
-C {lab_wire.sym} 310 -330 1 0 {name=p35 sig_type=std_logic lab=Sh2b}
+C {lab_wire.sym} 310 -350 1 0 {name=p34 sig_type=std_logic lab=Sh2}
+C {lab_wire.sym} 290 -350 1 0 {name=p35 sig_type=std_logic lab=Sh2b}
 C {ipin.sym} -350 -250 1 0 {name=p36 lab=Sh2}
 C {ipin.sym} -380 -250 1 0 {name=p40 lab=Sh2b}
 C {2BIT.sym} 300 -80 0 0 {name=x18}
@@ -318,8 +318,8 @@ C {lab_wire.sym} 450 -50 2 0 {name=p44 sig_type=std_logic lab=GND}
 C {4BIT.sym} 600 120 0 0 {name=x26}
 C {4BIT.sym} 600 440 0 0 {name=x27}
 C {4BIT.sym} 600 760 0 0 {name=x29}
-C {lab_wire.sym} 590 -330 1 0 {name=p45 sig_type=std_logic lab=Sh4}
-C {lab_wire.sym} 610 -330 1 0 {name=p46 sig_type=std_logic lab=Sh4b}
+C {lab_wire.sym} 610 -350 1 0 {name=p45 sig_type=std_logic lab=Sh4}
+C {lab_wire.sym} 590 -350 1 0 {name=p46 sig_type=std_logic lab=Sh4b}
 C {ipin.sym} -350 -120 1 0 {name=p47 lab=Sh4}
 C {ipin.sym} -380 -120 1 0 {name=p48 lab=Sh4b}
 C {8BIT.sym} 1040 40 0 0 {name=x28}
@@ -332,8 +332,8 @@ C {lab_wire.sym} 890 110 2 0 {name=p54 sig_type=std_logic lab=GND}
 C {lab_wire.sym} 890 190 2 0 {name=p55 sig_type=std_logic lab=GND}
 C {lab_wire.sym} 890 270 2 0 {name=p57 sig_type=std_logic lab=GND}
 C {8BIT.sym} 1040 680 0 0 {name=x30}
-C {lab_wire.sym} 1030 -330 1 0 {name=p58 sig_type=std_logic lab=Sh8}
-C {lab_wire.sym} 1050 -330 1 0 {name=p59 sig_type=std_logic lab=Sh8b}
+C {lab_wire.sym} 1050 -350 1 0 {name=p58 sig_type=std_logic lab=Sh8}
+C {lab_wire.sym} 1030 -350 1 0 {name=p59 sig_type=std_logic lab=Sh8b}
 C {ipin.sym} -350 10 1 0 {name=p60 lab=Sh8}
 C {ipin.sym} -380 10 1 0 {name=p61 lab=Sh8b}
 C {BUF.sym} 1190 -230 0 0 {name=x31}

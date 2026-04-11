@@ -1,39 +1,39 @@
 ** sch_path: /foss/designs/CAD5/SHIFT.sch
-.subckt SHIFT Sh1 Sh1b A0 A1 A2 A3 A4 A5 A6 A7 A8 A9 A10 A11 A12 A13 A14 A15 OUT0 OUT1 OUT2 OUT3 OUT4 OUT5 OUT6 OUT7 OUT8 OUT9
-+ OUT10 OUT11 OUT12 OUT13 OUT14 OUT15 Sh2 Sh2b Sh4 Sh4b Sh8 Sh8b
+.subckt SHIFT Sh1b Sh1 Sh2 Sh2b A0 OUT0 A1 OUT1 Sh4 Sh4b A2 OUT2 A3 OUT3 Sh8b Sh8 OUT4 A4 OUT5 A5 OUT6 A6 OUT7 A7 OUT8 A8 A9 OUT9
++ A10 OUT10 OUT11 A11 OUT12 A12 A13 OUT13 OUT14 A14 OUT15 A15
 *.PININFO Sh1:I Sh1b:I A0:I A1:I A2:I A3:I A4:I A5:I A6:I A7:I A8:I A9:I A10:I A11:I A12:I A13:I A14:I A15:I OUT0:O OUT1:O OUT2:O
 *+ OUT3:O OUT4:O OUT5:O OUT6:O OUT7:O OUT8:O OUT9:O OUT10:O OUT11:O OUT12:O OUT13:O OUT14:O OUT15:O Sh2:I Sh2b:I Sh4:I Sh4b:I Sh8:I Sh8b:I
-x1 Sh1b Sh1 A0 GND net17 1BIT
-x2 Sh1b Sh1 A1 A0 net18 1BIT
-x3 Sh1b Sh1 A2 A1 net19 1BIT
-x4 Sh1b Sh1 A3 A2 net20 1BIT
-x5 Sh1b Sh1 A4 A3 net21 1BIT
-x6 Sh1b Sh1 A5 A4 net22 1BIT
-x7 Sh1b Sh1 A6 A5 net23 1BIT
-x8 Sh1b Sh1 A7 A6 net24 1BIT
-x9 Sh1b Sh1 A8 A7 net25 1BIT
-x10 Sh1b Sh1 A9 A8 net26 1BIT
-x11 Sh1b Sh1 A10 A9 net27 1BIT
-x12 Sh1b Sh1 A11 A10 net28 1BIT
-x13 Sh1b Sh1 A12 A11 net29 1BIT
-x14 Sh1b Sh1 A13 A12 net30 1BIT
-x15 Sh1b Sh1 A14 A13 net31 1BIT
-x16 Sh1b Sh1 A15 A14 net32 1BIT
-x17 Sh2b Sh2 net17 GND net33 net34 GND net18 2BIT
-x18 Sh2b Sh2 net19 net17 net35 net36 net18 net20 2BIT
-x19 Sh2b Sh2 net21 net19 net37 net38 net20 net22 2BIT
-x20 Sh2b Sh2 net23 net21 net39 net40 net22 net24 2BIT
-x21 Sh2b Sh2 net25 net23 net41 net42 net24 net26 2BIT
-x22 Sh2b Sh2 net27 net25 net43 net44 net26 net28 2BIT
-x23 Sh2b Sh2 net29 net27 net45 net46 net28 net30 2BIT
-x24 Sh2b Sh2 net31 net29 net47 net48 net30 net32 2BIT
-x25 Sh4b Sh4 GND net33 net49 net51 net50 net52 GND net34 GND net35 GND net36 4BIT
-x26 Sh4b Sh4 net33 net37 net53 net54 net55 net56 net34 net38 net35 net39 net36 net40 4BIT
-x27 Sh4b Sh4 net37 net41 net57 net59 net58 net60 net38 net42 net39 net43 net40 net44 4BIT
-x29 Sh4b Sh4 net41 net45 net61 net62 net63 net64 net42 net46 net43 net47 net44 net48 4BIT
-x28 Sh8b Sh8 net49 GND net1 net2 net3 net4 net51 GND GND net50 GND net52 net53 GND net5 net6 net7 net8 GND net54 GND net55 GND
+x1 Sh1 Sh1b A0 GND net17 1BIT
+x2 Sh1 Sh1b A1 A0 net18 1BIT
+x3 Sh1 Sh1b A2 A1 net19 1BIT
+x4 Sh1 Sh1b A3 A2 net20 1BIT
+x5 Sh1 Sh1b A4 A3 net21 1BIT
+x6 Sh1 Sh1b A5 A4 net22 1BIT
+x7 Sh1 Sh1b A6 A5 net23 1BIT
+x8 Sh1 Sh1b A7 A6 net24 1BIT
+x9 Sh1 Sh1b A8 A7 net25 1BIT
+x10 Sh1 Sh1b A9 A8 net26 1BIT
+x11 Sh1 Sh1b A10 A9 net27 1BIT
+x12 Sh1 Sh1b A11 A10 net28 1BIT
+x13 Sh1 Sh1b A12 A11 net29 1BIT
+x14 Sh1 Sh1b A13 A12 net30 1BIT
+x15 Sh1 Sh1b A14 A13 net31 1BIT
+x16 Sh1 Sh1b A15 A14 net32 1BIT
+x17 Sh2 Sh2b net17 GND net33 net34 GND net18 2BIT
+x18 Sh2 Sh2b net19 net17 net35 net36 net18 net20 2BIT
+x19 Sh2 Sh2b net21 net19 net37 net38 net20 net22 2BIT
+x20 Sh2 Sh2b net23 net21 net39 net40 net22 net24 2BIT
+x21 Sh2 Sh2b net25 net23 net41 net42 net24 net26 2BIT
+x22 Sh2 Sh2b net27 net25 net43 net44 net26 net28 2BIT
+x23 Sh2 Sh2b net29 net27 net45 net46 net28 net30 2BIT
+x24 Sh2 Sh2b net31 net29 net47 net48 net30 net32 2BIT
+x25 Sh4 Sh4b GND net33 net49 net51 net50 net52 GND net34 GND net35 GND net36 4BIT
+x26 Sh4 Sh4b net33 net37 net53 net54 net55 net56 net34 net38 net35 net39 net36 net40 4BIT
+x27 Sh4 Sh4b net37 net41 net57 net59 net58 net60 net38 net42 net39 net43 net40 net44 4BIT
+x29 Sh4 Sh4b net41 net45 net61 net62 net63 net64 net42 net46 net43 net47 net44 net48 4BIT
+x28 Sh8 Sh8b net49 GND net1 net2 net3 net4 net51 GND GND net50 GND net52 net53 GND net5 net6 net7 net8 GND net54 GND net55 GND
 + net56 8BIT
-x30 Sh8b Sh8 net57 net49 net9 net10 net11 net12 net59 net51 net50 net58 net52 net60 net61 net53 net13 net14 net15 net16 net54
+x30 Sh8 Sh8b net57 net49 net9 net10 net11 net12 net59 net51 net50 net58 net52 net60 net61 net53 net13 net14 net15 net16 net54
 + net62 net55 net63 net56 net64 8BIT
 x31 OUT0 net1 BUF
 x32 OUT2 net3 BUF
