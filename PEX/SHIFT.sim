@@ -1,0 +1,977 @@
+| units: 0.5 tech: gf180mcuD format: MIT
+x SH1 A12 m2_n7_n8438# GND s=15100,502 d=7450,249 l=56 w=100 x=-96 y=-8525 nfet_03v3
+x SH8 a_2735_n10830# OUT15 GND s=14300,486 d=7450,249 l=56 w=100 x=2735 y=-10686 nfet_03v3
+x SH2 m2_n7_n9922# a_484_n9954# GND s=15100,502 d=7450,249 l=56 w=100 x=484 y=-10009 nfet_03v3
+x SH8B OUT7 GND GND s=7450,249 d=10800,416 l=56 w=100 x=2735 y=-4582 nfet_03v3
+x SH8B OUT6 GND GND s=7450,249 d=10500,410 l=56 w=100 x=2735 y=-3841 nfet_03v3
+x SH1B m2_n7_n3986# A5 GND s=7450,249 d=10500,410 l=56 w=100 x=-96 y=-3868 nfet_03v3
+x SH8 a_2735_n8210# OUT4 GND s=15100,502 d=7450,249 l=56 w=100 x=2735 y=-2571 nfet_03v3
+x SH2 m2_n7_n5470# a_484_n5502# GND s=15100,502 d=7450,249 l=56 w=100 x=484 y=-5557 nfet_03v3
+x SH8 a_2735_n4931# OUT7 GND s=14300,486 d=7450,249 l=56 w=100 x=2735 y=-4787 nfet_03v3
+x SH1 A2 m2_n7_n1018# GND s=15100,502 d=7450,249 l=56 w=100 x=-96 y=-1105 nfet_03v3
+x SH8B OUT11 a_2735_n7476# GND s=7450,249 d=10800,416 l=56 w=100 x=2735 y=-7531 nfet_03v3
+x SH1B m2_n7_n276# A0 GND s=7450,249 d=10500,410 l=56 w=100 x=-96 y=-158 nfet_03v3
+x SH2 m2_n7_n7696# a_484_n7728# GND s=14200,484 d=7450,249 l=56 w=100 x=484 y=-7783 nfet_03v3
+x SH1 A5 m2_n7_n3244# GND s=15100,502 d=7450,249 l=56 w=100 x=-96 y=-3331 nfet_03v3
+x SH1B m2_n7_n6212# A8 GND s=7450,249 d=10500,410 l=56 w=100 x=-96 y=-6094 nfet_03v3
+x SH4B a_2735_n7476# GND GND s=7450,249 d=10800,416 l=56 w=100 x=1337 y=-1632 nfet_03v3
+x SH2B a_484_n8470# m2_n7_n6954# GND s=7450,249 d=10500,410 l=56 w=100 x=484 y=-8320 nfet_03v3
+x SH8 a_2735_n6405# OUT9 GND s=14300,486 d=7450,249 l=56 w=100 x=2735 y=-6261 nfet_03v3
+x SH8 a_2735_n5672# OUT8 GND s=15100,502 d=7450,249 l=56 w=100 x=2735 y=-5520 nfet_03v3
+x SH8 a_2735_n9685# OUT6 GND s=15100,502 d=7450,249 l=56 w=100 x=2735 y=-4046 nfet_03v3
+x SH4B a_2735_n8210# a_484_434# GND s=7450,249 d=10500,410 l=56 w=100 x=1337 y=-2384 nfet_03v3
+x SH1 A15 m2_n7_n10664# GND s=15100,502 d=7450,249 l=56 w=100 x=-96 y=-10751 nfet_03v3
+x SH1 A0 m2_n7_466# GND s=15100,502 d=7450,249 l=56 w=100 x=-96 y=378 nfet_03v3
+x SH1B m2_n7_n6954# A9 GND s=7450,249 d=10500,410 l=56 w=100 x=-96 y=-6836 nfet_03v3
+x SH8 a_2735_n7880# OUT11 GND s=14300,486 d=7450,249 l=56 w=100 x=2735 y=-7736 nfet_03v3
+x SH8B OUT13 a_2735_n8951# GND s=7450,249 d=10800,416 l=56 w=100 x=2735 y=-9006 nfet_03v3
+x SH4 a_484_434# a_2735_227# GND s=15100,502 d=7450,249 l=56 w=100 x=1337 y=378 nfet_03v3
+x SH1 A9 m2_n7_n6212# GND s=15100,502 d=7450,249 l=56 w=100 x=-96 y=-6299 nfet_03v3
+x SH4B a_2735_n9685# a_484_n1050# GND s=7450,249 d=10500,410 l=56 w=100 x=1337 y=-3859 nfet_03v3
+x SH2 m2_n7_n8438# a_484_n8470# GND s=15100,502 d=7450,249 l=56 w=100 x=484 y=-8525 nfet_03v3
+x SH8 a_2735_n506# OUT1 GND s=14300,486 d=7450,249 l=56 w=100 x=2735 y=-362 nfet_03v3
+x SH4 a_484_n1792# a_2735_n7476# GND s=14300,486 d=7450,249 l=56 w=100 x=1337 y=-1837 nfet_03v3
+x SH2B a_484_n10696# m2_n7_n9180# GND s=7450,249 d=10500,410 l=56 w=100 x=484 y=-10546 nfet_03v3
+x SH2B a_484_n308# GND GND s=7450,249 d=10500,410 l=56 w=100 x=484 y=-158 nfet_03v3
+x SH4B a_2735_n10830# a_484_n7728# GND s=7450,249 d=10800,416 l=56 w=100 x=1337 y=-10536 nfet_03v3
+x SH4 a_484_n2534# a_2735_n8210# GND s=15100,502 d=7450,249 l=56 w=100 x=1337 y=-2589 nfet_03v3
+x SH2B a_484_n4018# m2_n7_n2502# GND s=7450,249 d=10500,410 l=56 w=100 x=484 y=-3868 nfet_03v3
+x SH1B m2_n7_n9180# A12 GND s=7450,249 d=10500,410 l=56 w=100 x=-96 y=-9062 nfet_03v3
+x SH4B a_2735_n4931# a_484_n1792# GND s=7450,249 d=10800,416 l=56 w=100 x=1337 y=-4600 nfet_03v3
+x SH4B a_2735_n6405# a_484_n3276# GND s=7450,249 d=10800,416 l=56 w=100 x=1337 y=-6093 nfet_03v3
+x SH4B a_2735_n5672# a_484_n2534# GND s=7450,249 d=10500,410 l=56 w=100 x=1337 y=-5352 nfet_03v3
+x SH2 m2_n7_n1018# a_484_n1050# GND s=15100,502 d=7450,249 l=56 w=100 x=484 y=-1105 nfet_03v3
+x SH1B m2_n7_n1760# A2 GND s=7450,249 d=10500,410 l=56 w=100 x=-96 y=-1642 nfet_03v3
+x SH4 a_484_n3276# a_2735_n8951# GND s=14300,486 d=7450,249 l=56 w=100 x=1337 y=-3330 nfet_03v3
+x SH1B m2_n7_n9922# A13 GND s=7450,249 d=10500,410 l=56 w=100 x=-96 y=-9804 nfet_03v3
+x SH2B a_484_n6244# m2_n7_n4728# GND s=7450,249 d=10500,410 l=56 w=100 x=484 y=-6094 nfet_03v3
+x SH8B OUT10 a_2735_n6735# GND s=7450,249 d=10500,410 l=56 w=100 x=2735 y=-6790 nfet_03v3
+x SH4B a_2735_n7880# a_484_n4760# GND s=7450,249 d=10800,416 l=56 w=100 x=1337 y=-7568 nfet_03v3
+x SH4B a_2735_n7147# a_484_n4018# GND s=7450,249 d=10500,410 l=56 w=100 x=1337 y=-6827 nfet_03v3
+x SH2 m2_n7_n3244# a_484_n3276# GND s=14200,484 d=7450,249 l=56 w=100 x=484 y=-3331 nfet_03v3
+x SH1 A13 m2_n7_n9180# GND s=15100,502 d=7450,249 l=56 w=100 x=-96 y=-9267 nfet_03v3
+x SH8B OUT3 GND GND s=7450,249 d=10800,416 l=56 w=100 x=2735 y=-1632 nfet_03v3
+x SH4 a_484_n4760# a_2735_n4931# GND s=14300,486 d=7450,249 l=56 w=100 x=1337 y=-4805 nfet_03v3
+x SH2B a_484_434# GND GND s=7450,249 d=10500,410 l=56 w=100 x=484 y=583 nfet_03v3
+x SH4 a_484_n5502# a_2735_n5672# GND s=15100,502 d=7450,249 l=56 w=100 x=1337 y=-5557 nfet_03v3
+x SH4 a_484_n6244# a_2735_n6405# GND s=14300,486 d=7450,249 l=56 w=100 x=1337 y=-6298 nfet_03v3
+x SH4B a_2735_n506# GND GND s=7450,249 d=10800,416 l=56 w=100 x=1337 y=-157 nfet_03v3
+x SH2B a_484_n6986# m2_n7_n5470# GND s=7450,249 d=10500,410 l=56 w=100 x=484 y=-6836 nfet_03v3
+x SH1 A3 m2_n7_n1760# GND s=15100,502 d=7450,249 l=56 w=100 x=-96 y=-1847 nfet_03v3
+x SH8 a_2735_227# OUT0 GND s=15100,502 d=7450,249 l=56 w=100 x=2735 y=378 nfet_03v3
+x SH8B OUT2 GND GND s=7450,249 d=10500,410 l=56 w=100 x=2735 y=-891 nfet_03v3
+x SH8 a_2735_n7147# OUT10 GND s=15100,502 d=7450,249 l=56 w=100 x=2735 y=-6995 nfet_03v3
+x SH2 m2_n7_n6212# a_484_n6244# GND s=14200,484 d=7450,249 l=56 w=100 x=484 y=-6299 nfet_03v3
+x SH8B OUT12 a_2735_n8210# GND s=7450,249 d=10500,410 l=56 w=100 x=2735 y=-8265 nfet_03v3
+x SH8 a_2735_n7476# OUT3 GND s=14300,486 d=7450,249 l=56 w=100 x=2735 y=-1837 nfet_03v3
+x SH8B OUT5 GND GND s=7450,249 d=10800,416 l=56 w=100 x=2735 y=-3107 nfet_03v3
+x SH4B a_2735_n8622# a_484_n5502# GND s=7450,249 d=10500,410 l=56 w=100 x=1337 y=-8320 nfet_03v3
+x SH4B a_2735_n9355# a_484_n6244# GND s=7450,249 d=10800,416 l=56 w=100 x=1337 y=-9061 nfet_03v3
+x SH1B m2_n7_n1018# A1 GND s=7450,249 d=10500,410 l=56 w=100 x=-96 y=-900 nfet_03v3
+x SH1B m2_n7_n4728# A6 GND s=7450,249 d=10500,410 l=56 w=100 x=-96 y=-4610 nfet_03v3
+x SH2B a_484_n9212# m2_n7_n7696# GND s=7450,249 d=10500,410 l=56 w=100 x=484 y=-9062 nfet_03v3
+x SH1 A6 m2_n7_n3986# GND s=15100,502 d=7450,249 l=56 w=100 x=-96 y=-4073 nfet_03v3
+x SH1 A1 m2_n7_n276# GND s=15100,502 d=7450,249 l=56 w=100 x=-96 y=-363 nfet_03v3
+x SH4 a_484_n1050# a_2735_n6735# GND s=15100,502 d=7450,249 l=56 w=100 x=1337 y=-1096 nfet_03v3
+x SH2B a_484_n1792# m2_n7_n276# GND s=7450,249 d=10500,410 l=56 w=100 x=484 y=-1642 nfet_03v3
+x SH1B m2_n7_n7696# A10 GND s=7450,249 d=10500,410 l=56 w=100 x=-96 y=-7578 nfet_03v3
+x SH4 a_484_n9212# a_2735_n9355# GND s=14300,486 d=7450,249 l=56 w=100 x=1337 y=-9266 nfet_03v3
+x SH4 a_484_n8470# a_2735_n8622# GND s=15100,502 d=7450,249 l=56 w=100 x=1337 y=-8525 nfet_03v3
+x SH2B a_484_n9954# m2_n7_n8438# GND s=7450,249 d=10500,410 l=56 w=100 x=484 y=-9804 nfet_03v3
+x SH1 A7 m2_n7_n4728# GND s=15100,502 d=7450,249 l=56 w=100 x=-96 y=-4815 nfet_03v3
+x SH2 m2_n7_n9180# a_484_n9212# GND s=14200,484 d=7450,249 l=56 w=100 x=484 y=-9267 nfet_03v3
+x SH1B m2_n7_466# GND GND s=7450,249 d=10500,410 l=56 w=100 x=-96 y=583 nfet_03v3
+x SH8 a_2735_n9355# OUT13 GND s=14300,486 d=7450,249 l=56 w=100 x=2735 y=-9211 nfet_03v3
+x SH2B a_484_n1050# m2_n7_466# GND s=7450,249 d=10500,410 l=56 w=100 x=484 y=-900 nfet_03v3
+x SH4B a_2735_227# GND GND s=7450,249 d=10500,410 l=56 w=100 x=1337 y=583 nfet_03v3
+x SH1 A14 m2_n7_n9922# GND s=15100,502 d=7450,249 l=56 w=100 x=-96 y=-10009 nfet_03v3
+x SH2 m2_n7_n276# a_484_n308# GND s=14200,484 d=7450,249 l=56 w=100 x=484 y=-363 nfet_03v3
+x SH2 m2_n7_n10664# a_484_n10696# GND s=14200,484 d=7450,249 l=56 w=100 x=484 y=-10751 nfet_03v3
+x SH2 m2_n7_n1760# a_484_n1792# GND s=14200,484 d=7450,249 l=56 w=100 x=484 y=-1847 nfet_03v3
+x SH1 A10 m2_n7_n6954# GND s=15100,502 d=7450,249 l=56 w=100 x=-96 y=-7041 nfet_03v3
+x SH4 a_484_n10696# a_2735_n10830# GND s=14300,486 d=7450,249 l=56 w=100 x=1337 y=-10741 nfet_03v3
+x SH4 a_484_n4018# a_2735_n9685# GND s=15100,502 d=7450,249 l=56 w=100 x=1337 y=-4064 nfet_03v3
+x SH1B m2_n7_n2502# A3 GND s=7450,249 d=10500,410 l=56 w=100 x=-96 y=-2384 nfet_03v3
+x SH2B a_484_n4760# m2_n7_n3244# GND s=7450,249 d=10500,410 l=56 w=100 x=484 y=-4610 nfet_03v3
+x SH8B OUT4 GND GND s=7450,249 d=10500,410 l=56 w=100 x=2735 y=-2366 nfet_03v3
+x SH4 a_484_n9954# a_1337_n9945# GND s=15100,502 d=7450,249 l=56 w=100 x=1337 y=-10000 nfet_03v3
+x SH2 m2_n7_n3986# a_484_n4018# GND s=15100,502 d=7450,249 l=56 w=100 x=484 y=-4073 nfet_03v3
+x SH8 a_2735_n6735# OUT2 GND s=15100,502 d=7450,249 l=56 w=100 x=2735 y=-1096 nfet_03v3
+x SH4B a_1337_n9945# a_484_n6986# GND s=7450,249 d=10500,410 l=56 w=100 x=1337 y=-9795 nfet_03v3
+x SH4 a_484_n7728# a_2735_n7880# GND s=14300,486 d=7450,249 l=56 w=100 x=1337 y=-7773 nfet_03v3
+x SH1 A4 m2_n7_n2502# GND s=15100,502 d=7450,249 l=56 w=100 x=-96 y=-2589 nfet_03v3
+x SH2B a_484_n7728# m2_n7_n6212# GND s=7450,249 d=10500,410 l=56 w=100 x=484 y=-7578 nfet_03v3
+x SH2 m2_n7_n4728# a_484_n4760# GND s=14200,484 d=7450,249 l=56 w=100 x=484 y=-4815 nfet_03v3
+x SH1B m2_n7_n3244# A4 GND s=7450,249 d=10500,410 l=56 w=100 x=-96 y=-3126 nfet_03v3
+x SH8B OUT14 a_2735_n9685# GND s=7450,249 d=10500,410 l=56 w=100 x=2735 y=-9740 nfet_03v3
+x SH8B OUT9 a_2735_n506# GND s=7450,249 d=10800,416 l=56 w=100 x=2735 y=-6056 nfet_03v3
+x SH8B OUT8 a_2735_227# GND s=7450,249 d=10500,410 l=56 w=100 x=2735 y=-5315 nfet_03v3
+x SH4 a_484_n6986# a_2735_n7147# GND s=15100,502 d=7450,249 l=56 w=100 x=1337 y=-7032 nfet_03v3
+x SH4 a_484_n308# a_2735_n506# GND s=14300,486 d=7450,249 l=56 w=100 x=1337 y=-362 nfet_03v3
+x SH8B OUT0 GND GND s=7450,249 d=10500,410 l=56 w=100 x=2735 y=583 nfet_03v3
+x SH1B m2_n7_n5470# A7 GND s=7450,249 d=10500,410 l=56 w=100 x=-96 y=-5352 nfet_03v3
+x SH1B m2_n7_n10664# A14 GND s=7450,249 d=10500,410 l=56 w=100 x=-96 y=-10546 nfet_03v3
+x SH8 a_2735_n8622# OUT12 GND s=15100,502 d=7450,249 l=56 w=100 x=2735 y=-8470 nfet_03v3
+x SH8 a_2735_n8951# OUT5 GND s=14300,486 d=7450,249 l=56 w=100 x=2735 y=-3312 nfet_03v3
+x SH2 m2_n7_n6954# a_484_n6986# GND s=15100,502 d=7450,249 l=56 w=100 x=484 y=-7041 nfet_03v3
+x SH8B OUT1 GND GND s=7450,249 d=10800,416 l=56 w=100 x=2735 y=-157 nfet_03v3
+x SH8 a_1337_n9945# OUT14 GND s=15100,502 d=7450,249 l=56 w=100 x=2735 y=-9945 nfet_03v3
+x SH2B a_484_n2534# m2_n7_n1018# GND s=7450,249 d=10500,410 l=56 w=100 x=484 y=-2384 nfet_03v3
+x SH1 A8 m2_n7_n5470# GND s=15100,502 d=7450,249 l=56 w=100 x=-96 y=-5557 nfet_03v3
+x SH1 A11 m2_n7_n7696# GND s=15100,502 d=7450,249 l=56 w=100 x=-96 y=-7783 nfet_03v3
+x SH1B m2_n7_n8438# A11 GND s=7450,249 d=10500,410 l=56 w=100 x=-96 y=-8320 nfet_03v3
+x SH8B OUT15 a_2735_n4931# GND s=7450,249 d=10800,416 l=56 w=100 x=2735 y=-10481 nfet_03v3
+x SH4B a_2735_n8951# a_484_n308# GND s=7450,249 d=10800,416 l=56 w=100 x=1337 y=-3125 nfet_03v3
+x SH2 m2_n7_n2502# a_484_n2534# GND s=15100,502 d=7450,249 l=56 w=100 x=484 y=-2589 nfet_03v3
+x SH2B a_484_n3276# m2_n7_n1760# GND s=7450,249 d=10500,410 l=56 w=100 x=484 y=-3126 nfet_03v3
+x SH4B a_2735_n6735# GND GND s=7450,249 d=10500,410 l=56 w=100 x=1337 y=-891 nfet_03v3
+x SH2B a_484_n5502# m2_n7_n3986# GND s=7450,249 d=10500,410 l=56 w=100 x=484 y=-5352 nfet_03v3
+x SH2 m2_n7_466# a_484_434# GND s=15100,502 d=7450,249 l=56 w=100 x=484 y=378 nfet_03v3
+C a_2735_n6405# a_2735_n7147# 2.0
+C a_2735_n6735# a_2735_n506# 2.8
+C a_2735_n7476# a_2735_n6735# 3.1
+C a_2735_n7476# a_2735_n8210# 3.5
+C a_2735_n8951# a_2735_n8210# 3.8
+C a_2735_n9685# a_2735_n8951# 4.1
+C a_2735_n6405# a_2735_n5672# 2.4
+C a_2735_n4931# a_2735_n9685# 4.4
+C a_2735_n506# a_2735_227# 2.5
+R a_484_n10696# 42
+= a_484_n10696# via_dev$1_33/m1_0_0#
+= a_484_n10696# m3_802_n11079#
+= a_484_n10696# via_dev$1_27/m1_0_0#
+= a_484_n10696# a_1337_n10885#
+= a_484_n10696# via_dev_35/m1_0_0#
+= a_484_n10696# via_dev_39/m1_0_0#
+= a_484_n10696# m2_574_n10664#
+R m2_n7_n8438# 68
+= m2_n7_n8438# via_dev$1_58/m1_0_0#
+= m2_n7_n8438# a_n97_n8470#
+= m2_n7_n8438# via_dev$1_38/m1_0_0#
+= m2_n7_n8438# a_484_n8677#
+= m2_n7_n8438# via_dev_23/m1_0_0#
+= m2_n7_n8438# a_484_n9749#
+= m2_n7_n8438# via_dev_22/m1_0_0#
+= m2_n7_n8438# m3_358_n9595#
+R a_484_n5502# 70
+= a_484_n5502# via_dev$1_51/m1_0_0#
+= a_484_n5502# m2_574_n5470#
+= a_484_n5502# via_dev$1_18/m1_0_0#
+= a_484_n5502# a_1337_n5709#
+= a_484_n5502# via_dev_44/m1_0_0#
+= a_484_n5502# a_1337_n8265#
+= a_484_n5502# via_dev_40/m1_0_0#
+= a_484_n5502# m3_1211_n8111#
+R a_484_n6244# 70
+= a_484_n6244# via_dev$1_49/m1_0_0#
+= a_484_n6244# m2_574_n6212#
+= a_484_n6244# via_dev$1_24/m1_0_0#
+= a_484_n6244# a_1337_n6442#
+= a_484_n6244# via_dev_45/m1_0_0#
+= a_484_n6244# a_1337_n9006#
+= a_484_n6244# via_dev_41/m1_0_0#
+= a_484_n6244# m3_1075_n8111#
+R a_484_n6986# 70
+= a_484_n6986# via_dev$1_43/m1_0_0#
+= a_484_n6986# m3_938_n8111#
+= a_484_n6986# via_dev$1_21/m1_0_0#
+= a_484_n6986# a_1337_n7184#
+= a_484_n6986# via_dev_46/m1_0_0#
+= a_484_n6986# m2_574_n6954#
+= a_484_n6986# via_dev_42/m1_0_0#
+= a_484_n6986# a_1337_n9740#
+C a_484_n7728#0 3.8
+R a_484_n7728# 70
+= a_484_n7728# via_dev$1_41/m1_0_0#
+= a_484_n7728# m3_802_n8111#
+= a_484_n7728# via_dev$1_19/m1_0_0#
+= a_484_n7728# a_1337_n7917#
+= a_484_n7728# via_dev_47/m1_0_0#
+= a_484_n7728# m2_574_n7696#
+= a_484_n7728# via_dev_43/m1_0_0#
+= a_484_n7728# a_1337_n10481#
+R m2_n7_n6954# 68
+= m2_n7_n6954# via_dev$1_62/m1_0_0#
+= m2_n7_n6954# a_n97_n6986#
+= m2_n7_n6954# via_dev$1_42/m1_0_0#
+= m2_n7_n6954# a_484_n7193#
+= m2_n7_n6954# via_dev_27/m1_0_0#
+= m2_n7_n6954# a_484_n8265#
+= m2_n7_n6954# via_dev_26/m1_0_0#
+= m2_n7_n6954# m3_358_n8111#
+R m2_n7_n5470# 68
+= m2_n7_n5470# via_dev$1_46/m1_0_0#
+= m2_n7_n5470# a_n97_n5502#
+= m2_n7_n5470# via_dev$1_50/m1_0_0#
+= m2_n7_n5470# a_484_n5709#
+= m2_n7_n5470# via_dev_49/m1_0_0#
+= m2_n7_n5470# a_484_n6781#
+= m2_n7_n5470# via_dev_48/m1_0_0#
+= m2_n7_n5470# m3_358_n6627#
+R A9 40
+= A9 via_dev$1_45/m1_0_0#
+= A9 a_n97_n6781#
+= A9 via_dev_63/m1_0_0#
+= A9 m2_n282_n6437#
+= A9 via_dev_28/m1_0_0#
+= A9 m3_n223_n6627#
+C a_2735_227#0 2.3
+R a_2735_227# 74
+= a_2735_227# via_dev$1_122/m1_0_0#
+= a_2735_227# a_1337_434#
+= a_2735_227# via_dev$1_108/m1_0_0#
+= a_2735_227# m2_1427_466#
+= a_2735_227# via_dev_123/m1_0_0#
+= a_2735_227# a_2735_n5260#
+= a_2735_227# via_dev_127/m1_0_0#
+= a_2735_227# m3_2609_n5027#
+R a_2735_n506# 74
+= a_2735_n506# via_dev$1_111/m1_0_0#
+= a_2735_n506# a_1337_n307#
+= a_2735_n506# via_dev$1_121/m1_0_0#
+= a_2735_n506# m2_1427_n275#
+= a_2735_n506# via_dev_122/m1_0_0#
+= a_2735_n506# a_2735_n6001#
+= a_2735_n506# via_dev_126/m1_0_0#
+= a_2735_n506# m3_2473_n5027#
+R a_2735_n6735# 74
+= a_2735_n6735# via_dev$1_126/m1_0_0#
+= a_2735_n6735# a_1337_n1041#
+= a_2735_n6735# via_dev$1_104/m1_0_0#
+= a_2735_n6735# a_2735_n1248#
+= a_2735_n6735# via_dev_121/m1_0_0#
+= a_2735_n6735# m2_1427_n1009#
+= a_2735_n6735# via_dev_125/m1_0_0#
+= a_2735_n6735# m3_2336_n5027#
+R a_2735_n7476# 74
+= a_2735_n7476# via_dev$1_107/m1_0_0#
+= a_2735_n7476# a_2735_n1981#
+= a_2735_n7476# via_dev$1_125/m1_0_0#
+= a_2735_n7476# a_1337_n1782#
+= a_2735_n7476# via_dev_120/m1_0_0#
+= a_2735_n7476# m2_1427_n1750#
+= a_2735_n7476# via_dev_124/m1_0_0#
+= a_2735_n7476# m3_2200_n5027#
+R a_2735_n8210# 74
+= a_2735_n8210# via_dev$1_100/m1_0_0#
+= a_2735_n8210# a_2735_n2723#
+= a_2735_n8210# via_dev$1_114/m1_0_0#
+= a_2735_n8210# a_1337_n2534#
+= a_2735_n8210# via_dev_115/m1_0_0#
+= a_2735_n8210# m2_1427_n2502#
+= a_2735_n8210# via_dev_119/m1_0_0#
+= a_2735_n8210# m3_2064_n5107#
+R a_2735_n8951# 74
+= a_2735_n8951# via_dev$1_103/m1_0_0#
+= a_2735_n8951# a_2735_n3456#
+= a_2735_n8951# via_dev$1_113/m1_0_0#
+= a_2735_n8951# a_1337_n3275#
+= a_2735_n8951# via_dev_114/m1_0_0#
+= a_2735_n8951# m2_1427_n3243#
+= a_2735_n8951# via_dev_118/m1_0_0#
+= a_2735_n8951# m3_1928_n5107#
+R a_2735_n9685# 75
+= a_2735_n9685# via_dev$1_96/m1_0_0#
+= a_2735_n9685# a_2735_n4198#
+= a_2735_n9685# via_dev$1_118/m1_0_0#
+= a_2735_n9685# a_1337_n4009#
+= a_2735_n9685# via_dev_113/m1_0_0#
+= a_2735_n9685# m2_1427_n3977#
+= a_2735_n9685# via_dev_117/m1_0_0#
+= a_2735_n9685# m3_1792_n5107#
+C a_2735_n4931#0 7.6
+R a_2735_n4931# 75
+= a_2735_n4931# via_dev$1_99/m1_0_0#
+= a_2735_n4931# a_1337_n4750#
+= a_2735_n4931# via_dev$1_117/m1_0_0#
+= a_2735_n4931# m3_1656_n5107#
+= a_2735_n4931# via_dev_112/m1_0_0#
+= a_2735_n4931# m2_1427_n4718#
+= a_2735_n4931# via_dev_116/m1_0_0#
+= a_2735_n4931# a_2735_n10426#
+R a_484_n2534# 70
+= a_484_n2534# via_dev$1_67/m1_0_0#
+= a_484_n2534# m2_574_n2502#
+= a_484_n2534# via_dev$1_115/m1_0_0#
+= a_484_n2534# a_1337_n2741#
+= a_484_n2534# via_dev_84/m1_0_0#
+= a_484_n2534# a_1337_n5297#
+= a_484_n2534# via_dev_80/m1_0_0#
+= a_484_n2534# m3_1211_n5143#
+R a_484_n3276# 70
+= a_484_n3276# via_dev$1_65/m1_0_0#
+= a_484_n3276# m2_574_n3244#
+= a_484_n3276# via_dev$1_112/m1_0_0#
+= a_484_n3276# a_1337_n3474#
+= a_484_n3276# via_dev_85/m1_0_0#
+= a_484_n3276# a_1337_n6038#
+= a_484_n3276# via_dev_81/m1_0_0#
+= a_484_n3276# m3_1075_n5143#
+R a_484_n4018# 70
+= a_484_n4018# via_dev$1_95/m1_0_0#
+= a_484_n4018# m3_938_n5143#
+= a_484_n4018# via_dev$1_119/m1_0_0#
+= a_484_n4018# a_1337_n4216#
+= a_484_n4018# via_dev_86/m1_0_0#
+= a_484_n4018# m2_574_n3986#
+= a_484_n4018# via_dev_82/m1_0_0#
+= a_484_n4018# a_1337_n6772#
+C a_484_n4760#0 3.8
+R a_484_n4760# 70
+= a_484_n4760# via_dev$1_93/m1_0_0#
+= a_484_n4760# m3_802_n5143#
+= a_484_n4760# via_dev$1_116/m1_0_0#
+= a_484_n4760# a_1337_n4949#
+= a_484_n4760# via_dev_89/m1_0_0#
+= a_484_n4760# m2_574_n4728#
+= a_484_n4760# via_dev_83/m1_0_0#
+= a_484_n4760# a_1337_n7513#
+R m2_n7_n3986# 68
+= m2_n7_n3986# via_dev$1_78/m1_0_0#
+= m2_n7_n3986# a_n97_n4018#
+= m2_n7_n3986# via_dev$1_94/m1_0_0#
+= m2_n7_n3986# a_484_n4225#
+= m2_n7_n3986# via_dev_109/m1_0_0#
+= m2_n7_n3986# a_484_n5297#
+= m2_n7_n3986# via_dev_108/m1_0_0#
+= m2_n7_n3986# m3_358_n5143#
+R m2_n7_n2502# 68
+= m2_n7_n2502# via_dev$1_82/m1_0_0#
+= m2_n7_n2502# a_n97_n2534#
+= m2_n7_n2502# via_dev$1_66/m1_0_0#
+= m2_n7_n2502# a_484_n2741#
+= m2_n7_n2502# via_dev_65/m1_0_0#
+= m2_n7_n2502# a_484_n3813#
+= m2_n7_n2502# via_dev_64/m1_0_0#
+= m2_n7_n2502# m3_358_n3659#
+R m2_n7_n3244# 68
+= m2_n7_n3244# via_dev$1_80/m1_0_0#
+= m2_n7_n3244# a_n97_n3276#
+= m2_n7_n3244# via_dev$1_64/m1_0_0#
+= m2_n7_n3244# a_484_n3474#
+= m2_n7_n3244# via_dev_111/m1_0_0#
+= m2_n7_n3244# a_484_n4555#
+= m2_n7_n3244# via_dev_110/m1_0_0#
+= m2_n7_n3244# m3_221_n3659#
+R a_484_434# 70
+= a_484_434# via_dev$1_75/m1_0_0#
+= a_484_434# m2_574_466#
+= a_484_434# via_dev$1_123/m1_0_0#
+= a_484_434# a_1337_227#
+= a_484_434# via_dev_96/m1_0_0#
+= a_484_434# a_1337_n2329#
+= a_484_434# via_dev_92/m1_0_0#
+= a_484_434# m3_1211_n2175#
+R a_484_n308# 70
+= a_484_n308# via_dev$1_73/m1_0_0#
+= a_484_n308# m2_574_n276#
+= a_484_n308# via_dev$1_120/m1_0_0#
+= a_484_n308# a_1337_n506#
+= a_484_n308# via_dev_97/m1_0_0#
+= a_484_n308# a_1337_n3070#
+= a_484_n308# via_dev_93/m1_0_0#
+= a_484_n308# m3_1075_n2175#
+R a_484_n1050# 70
+= a_484_n1050# via_dev$1_71/m1_0_0#
+= a_484_n1050# m3_938_n2175#
+= a_484_n1050# via_dev$1_127/m1_0_0#
+= a_484_n1050# a_1337_n1248#
+= a_484_n1050# via_dev_98/m1_0_0#
+= a_484_n1050# m2_574_n1018#
+= a_484_n1050# via_dev_94/m1_0_0#
+= a_484_n1050# a_1337_n3804#
+C a_484_n1792#0 3.8
+R a_484_n1792# 70
+= a_484_n1792# via_dev$1_69/m1_0_0#
+= a_484_n1792# m3_802_n2175#
+= a_484_n1792# via_dev$1_124/m1_0_0#
+= a_484_n1792# a_1337_n1981#
+= a_484_n1792# via_dev_101/m1_0_0#
+= a_484_n1792# m2_574_n1760#
+= a_484_n1792# via_dev_95/m1_0_0#
+= a_484_n1792# a_1337_n4545#
+R m2_n7_n1018# 68
+= m2_n7_n1018# via_dev$1_86/m1_0_0#
+= m2_n7_n1018# a_n97_n1050#
+= m2_n7_n1018# via_dev$1_70/m1_0_0#
+= m2_n7_n1018# a_484_n1257#
+= m2_n7_n1018# via_dev_69/m1_0_0#
+= m2_n7_n1018# a_484_n2329#
+= m2_n7_n1018# via_dev_68/m1_0_0#
+= m2_n7_n1018# m3_358_n2175#
+R m2_n7_466# 68
+= m2_n7_466# via_dev$1_88/m1_0_0#
+= m2_n7_466# a_n97_434#
+= m2_n7_466# via_dev$1_74/m1_0_0#
+= m2_n7_466# a_484_227#
+= m2_n7_466# via_dev_73/m1_0_0#
+= m2_n7_466# a_484_n845#
+= m2_n7_466# via_dev_72/m1_0_0#
+= m2_n7_466# m3_358_n691#
+R A15 11
+= A15 via_dev_50/m1_0_0#
+= A15 via_dev_51/m1_0_0#
+= A15 m3_n223_n11079#
+= A15 via_dev$1_53/m1_0_0#
+= A15 m2_n282_n10889#
+= OUT15 via_dev$1_2/m1_0_0#
+= OUT15 m2_2825_n10599#
+R m2_n7_n10664# 41
+= m2_n7_n10664# via_dev$1_52/m1_0_0#
+= m2_n7_n10664# a_n97_n10696#
+= m2_n7_n10664# via_dev_16/m1_0_0#
+= m2_n7_n10664# via_dev_17/m1_0_0#
+= m2_n7_n10664# m3_221_n11079#
+= m2_n7_n10664# via_dev$1_32/m1_0_0#
+= m2_n7_n10664# a_484_n10894#
+R A14 40
+= A14 via_dev_52/m1_0_0#
+= A14 via_dev_53/m1_0_0#
+= A14 m3_n223_n10337#
+= A14 a_n97_n10491#
+= A14 via_dev$1_55/m1_0_0#
+= A14 m2_n282_n10147#
+= OUT14 via_dev$1_1/m1_0_0#
+= OUT14 m2_2825_n9858#
+R A13 40
+= A13 via_dev_54/m1_0_0#
+= A13 via_dev_55/m1_0_0#
+= A13 m3_n223_n9595#
+= A13 a_n97_n9749#
+= A13 via_dev$1_57/m1_0_0#
+= A13 m2_n282_n9405#
+= OUT13 via_dev$1_6/m1_0_0#
+= OUT13 m2_2825_n9124#
+R m2_n7_n9180# 68
+= m2_n7_n9180# via_dev$1_56/m1_0_0#
+= m2_n7_n9180# a_n97_n9212#
+= m2_n7_n9180# via_dev_21/m1_0_0#
+= m2_n7_n9180# via_dev_20/m1_0_0#
+= m2_n7_n9180# m3_221_n9595#
+= m2_n7_n9180# a_484_n10491#
+= m2_n7_n9180# via_dev$1_36/m1_0_0#
+= m2_n7_n9180# a_484_n9410#
+R A12 40
+= A12 via_dev_57/m1_0_0#
+= A12 via_dev_58/m1_0_0#
+= A12 m3_n223_n8853#
+= A12 a_n97_n9007#
+= A12 via_dev$1_59/m1_0_0#
+= A12 m2_n282_n8663#
+= OUT12 via_dev$1_5/m1_0_0#
+= OUT12 m2_2825_n8383#
+R A11 40
+= A11 via_dev_59/m1_0_0#
+= A11 via_dev_60/m1_0_0#
+= A11 m3_n223_n8111#
+= A11 a_n97_n8265#
+= A11 via_dev$1_61/m1_0_0#
+= A11 m2_n282_n7921#
+= OUT11 via_dev$1_10/m1_0_0#
+= OUT11 m2_2825_n7649#
+R m2_n7_n7696# 68
+= m2_n7_n7696# via_dev$1_60/m1_0_0#
+= m2_n7_n7696# a_n97_n7728#
+= m2_n7_n7696# via_dev_25/m1_0_0#
+= m2_n7_n7696# via_dev_24/m1_0_0#
+= m2_n7_n7696# m3_221_n8111#
+= m2_n7_n7696# a_484_n9007#
+= m2_n7_n7696# via_dev$1_40/m1_0_0#
+= m2_n7_n7696# a_484_n7926#
+R A10 40
+= A10 via_dev_61/m1_0_0#
+= A10 via_dev_62/m1_0_0#
+= A10 m3_n223_n7369#
+= A10 a_n97_n7523#
+= A10 via_dev$1_63/m1_0_0#
+= A10 m2_n282_n7179#
+= OUT10 via_dev$1_9/m1_0_0#
+= OUT10 m2_2825_n6908#
+= OUT9 via_dev$1_14/m1_0_0#
+= OUT9 m2_2825_n6174#
+R m2_n7_n6212# 68
+= m2_n7_n6212# via_dev$1_44/m1_0_0#
+= m2_n7_n6212# a_n97_n6244#
+= m2_n7_n6212# via_dev_31/m1_0_0#
+= m2_n7_n6212# via_dev_30/m1_0_0#
+= m2_n7_n6212# m3_221_n6627#
+= m2_n7_n6212# a_484_n7523#
+= m2_n7_n6212# via_dev$1_48/m1_0_0#
+= m2_n7_n6212# a_484_n6442#
+R A8 40
+= A8 via_dev_29/m1_0_0#
+= A8 via_dev_56/m1_0_0#
+= A8 m3_n223_n5885#
+= A8 a_n97_n6039#
+= A8 via_dev$1_47/m1_0_0#
+= A8 m2_n282_n5695#
+= OUT8 via_dev$1_13/m1_0_0#
+= OUT8 m2_2825_n5433#
+R A7 40
+= A7 via_dev_75/m1_0_0#
+= A7 via_dev_76/m1_0_0#
+= A7 m3_n223_n5143#
+= A7 a_n97_n5297#
+= A7 via_dev$1_77/m1_0_0#
+= A7 m2_n282_n4953#
+= OUT7 via_dev$1_98/m1_0_0#
+= OUT7 m2_2825_n4700#
+R m2_n7_n4728# 68
+= m2_n7_n4728# via_dev$1_76/m1_0_0#
+= m2_n7_n4728# a_n97_n4760#
+= m2_n7_n4728# via_dev_107/m1_0_0#
+= m2_n7_n4728# via_dev_106/m1_0_0#
+= m2_n7_n4728# m3_221_n5143#
+= m2_n7_n4728# a_484_n6039#
+= m2_n7_n4728# via_dev$1_92/m1_0_0#
+= m2_n7_n4728# a_484_n4958#
+R A6 40
+= A6 via_dev_77/m1_0_0#
+= A6 via_dev_78/m1_0_0#
+= A6 m3_n223_n4401#
+= A6 a_n97_n4555#
+= A6 via_dev$1_79/m1_0_0#
+= A6 m2_n282_n4211#
+= OUT6 via_dev$1_97/m1_0_0#
+= OUT6 m2_2825_n3959#
+R A5 40
+= A5 via_dev_79/m1_0_0#
+= A5 via_dev_87/m1_0_0#
+= A5 m3_n223_n3659#
+= A5 a_n97_n3813#
+= A5 via_dev$1_81/m1_0_0#
+= A5 m2_n282_n3469#
+= OUT5 via_dev$1_102/m1_0_0#
+= OUT5 m2_2825_n3225#
+R A4 40
+= A4 via_dev_88/m1_0_0#
+= A4 via_dev_90/m1_0_0#
+= A4 m3_n223_n2917#
+= A4 a_n97_n3071#
+= A4 via_dev$1_83/m1_0_0#
+= A4 m2_n282_n2727#
+= OUT4 via_dev$1_101/m1_0_0#
+= OUT4 m2_2825_n2484#
+R A3 40
+= A3 via_dev_91/m1_0_0#
+= A3 via_dev_99/m1_0_0#
+= A3 m3_n223_n2175#
+= A3 a_n97_n2329#
+= A3 via_dev$1_85/m1_0_0#
+= A3 m2_n282_n1985#
+= OUT3 via_dev$1_106/m1_0_0#
+= OUT3 m2_2825_n1750#
+R m2_n7_n1760# 68
+= m2_n7_n1760# via_dev$1_84/m1_0_0#
+= m2_n7_n1760# a_n97_n1792#
+= m2_n7_n1760# via_dev_67/m1_0_0#
+= m2_n7_n1760# via_dev_66/m1_0_0#
+= m2_n7_n1760# m3_221_n2175#
+= m2_n7_n1760# a_484_n3071#
+= m2_n7_n1760# via_dev$1_68/m1_0_0#
+= m2_n7_n1760# a_484_n1990#
+R A2 40
+= A2 via_dev_100/m1_0_0#
+= A2 via_dev_102/m1_0_0#
+= A2 m3_n223_n1433#
+= A2 a_n97_n1587#
+= A2 via_dev$1_87/m1_0_0#
+= A2 m2_n282_n1243#
+= OUT2 via_dev$1_105/m1_0_0#
+= OUT2 m2_2825_n1009#
+R A1 40
+= A1 via_dev_103/m1_0_0#
+= A1 via_dev_105/m1_0_0#
+= A1 m3_n223_n691#
+= A1 a_n97_n845#
+= A1 via_dev$1_91/m1_0_0#
+= A1 m2_n282_n501#
+= OUT1 via_dev$1_110/m1_0_0#
+= OUT1 m2_2825_n275#
+R m2_n7_n276# 68
+= m2_n7_n276# via_dev$1_90/m1_0_0#
+= m2_n7_n276# a_n97_n308#
+= m2_n7_n276# via_dev_71/m1_0_0#
+= m2_n7_n276# via_dev_70/m1_0_0#
+= m2_n7_n276# m3_221_n691#
+= m2_n7_n276# a_484_n1587#
+= m2_n7_n276# via_dev$1_72/m1_0_0#
+= m2_n7_n276# a_484_n506#
+R A0 40
+= A0 via_dev_104/m1_0_0#
+= A0 via_dev_74/m1_0_0#
+= A0 m3_n223_51#
+= A0 a_n97_n103#
+= A0 via_dev$1_89/m1_0_0#
+= A0 m2_n282_241#
+= OUT0 via_dev$1_109/m1_0_0#
+= OUT0 m2_2825_466#
+C SH80 9.4
+R SH8 2847
+C SH8B0 8.9
+R SH8B 2847
+C SH40 9.4
+R SH4 2861
+C SH4B0 8.6
+R SH4B 2861
+C SH20 9.1
+R SH2 2861
+C SH2B0 8.1
+R SH2B 2861
+C SH10 8.5
+R SH1 2861
+C SH1B0 8.7
+R SH1B 2861
+R a_2735_n10830# 42
+= a_2735_n10830# via_dev$1_3/m1_0_0#
+= a_2735_n10830# a_1337_n10686#
+= a_2735_n10830# via_dev$1_28/m1_0_0#
+= a_2735_n10830# m3_1656_n11006#
+= a_2735_n10830# via_dev_0/m1_0_0#
+= a_2735_n10830# m2_1427_n10654#
+= a_2735_n10830# via_dev_4/m1_0_0#
+R m2_n7_n9922# 43
+= m2_n7_n9922# via_dev$1_54/m1_0_0#
+= m2_n7_n9922# a_n97_n9954#
+= m2_n7_n9922# via_dev$1_34/m1_0_0#
+= m2_n7_n9922# a_484_n10161#
+= m2_n7_n9922# via_dev_19/m1_0_0#
+= m2_n7_n9922# m3_358_n11079#
+= m2_n7_n9922# via_dev_18/m1_0_0#
+R a_2735_n5672# 48
+= a_2735_n5672# via_dev$1_12/m1_0_0#
+= a_2735_n5672# a_1337_n5502#
+= a_2735_n5672# via_dev$1_17/m1_0_0#
+= a_2735_n5672# m2_1427_n5470#
+= a_2735_n5672# via_dev_11/m1_0_0#
+= a_2735_n5672# m3_2609_n10926#
+= a_2735_n5672# via_dev_15/m1_0_0#
+R a_2735_n6405# 47
+= a_2735_n6405# via_dev$1_15/m1_0_0#
+= a_2735_n6405# a_1337_n6243#
+= a_2735_n6405# via_dev$1_29/m1_0_0#
+= a_2735_n6405# m2_1427_n6211#
+= a_2735_n6405# via_dev_10/m1_0_0#
+= a_2735_n6405# m3_2473_n10926#
+= a_2735_n6405# via_dev_14/m1_0_0#
+R a_2735_n7147# 47
+= a_2735_n7147# via_dev$1_8/m1_0_0#
+= a_2735_n7147# a_1337_n6977#
+= a_2735_n7147# via_dev$1_16/m1_0_0#
+= a_2735_n7147# m2_1427_n6945#
+= a_2735_n7147# via_dev_9/m1_0_0#
+= a_2735_n7147# m3_2336_n10926#
+= a_2735_n7147# via_dev_13/m1_0_0#
+R a_2735_n7880# 46
+= a_2735_n7880# via_dev$1_11/m1_0_0#
+= a_2735_n7880# a_1337_n7718#
+= a_2735_n7880# via_dev$1_20/m1_0_0#
+= a_2735_n7880# m2_1427_n7686#
+= a_2735_n7880# via_dev_8/m1_0_0#
+= a_2735_n7880# m3_2200_n10926#
+= a_2735_n7880# via_dev_12/m1_0_0#
+R a_484_n9954# 43
+= a_484_n9954# via_dev$1_35/m1_0_0#
+= a_484_n9954# m2_574_n9922#
+= a_484_n9954# via_dev$1_31/m1_0_0#
+= a_484_n9954# a_1337_n10152#
+= a_484_n9954# via_dev_38/m1_0_0#
+= a_484_n9954# m3_938_n11079#
+= a_484_n9954# via_dev_34/m1_0_0#
+R a_484_n9212# 43
+= a_484_n9212# via_dev$1_37/m1_0_0#
+= a_484_n9212# m2_574_n9180#
+= a_484_n9212# via_dev$1_22/m1_0_0#
+= a_484_n9212# a_1337_n9410#
+= a_484_n9212# via_dev_37/m1_0_0#
+= a_484_n9212# m3_1075_n11079#
+= a_484_n9212# via_dev_33/m1_0_0#
+R a_484_n8470# 45
+= a_484_n8470# via_dev$1_39/m1_0_0#
+= a_484_n8470# m2_574_n8438#
+= a_484_n8470# via_dev$1_26/m1_0_0#
+= a_484_n8470# a_1337_n8677#
+= a_484_n8470# via_dev_36/m1_0_0#
+= a_484_n8470# m3_1211_n11079#
+= a_484_n8470# via_dev_32/m1_0_0#
+R GND 13
+= GND via_dev$1_109/VSUBS
+= GND via_dev$1_122/VSUBS
+= GND via_dev$1_75/VSUBS
+= GND via_dev$1_88/VSUBS
+= GND via_dev$1_108/VSUBS
+= GND via_dev$1_110/VSUBS
+= GND via_dev$1_111/VSUBS
+= GND via_dev$1_105/VSUBS
+= GND via_dev_123/VSUBS
+= GND via_dev$1_123/VSUBS
+= GND via_dev_96/VSUBS
+= GND via_dev$1_74/VSUBS
+= GND via_dev_73/VSUBS
+= GND via_dev_104/VSUBS
+= GND via_dev$1_89/VSUBS
+= GND via_dev$1_121/VSUBS
+= GND via_dev$1_73/VSUBS
+= GND via_dev_74/VSUBS
+= GND via_dev$1_90/VSUBS
+= GND via_dev_122/VSUBS
+= GND via_dev$1_120/VSUBS
+= GND via_dev_97/VSUBS
+= GND via_dev_71/VSUBS
+= GND via_dev$1_72/VSUBS
+= GND via_dev_103/VSUBS
+= GND via_dev$1_91/VSUBS
+= GND via_dev$1_126/VSUBS
+= GND via_dev$1_71/VSUBS
+= GND via_dev_70/VSUBS
+= GND via_dev_72/VSUBS
+= GND via_dev$1_86/VSUBS
+= GND via_dev_105/VSUBS
+= GND via_dev$1_104/VSUBS
+= GND via_dev$1_106/VSUBS
+= GND via_dev$1_107/VSUBS
+= GND via_dev_121/VSUBS
+= GND via_dev$1_127/VSUBS
+= GND via_dev_98/VSUBS
+= GND via_dev$1_70/VSUBS
+= GND via_dev_69/VSUBS
+= GND via_dev_100/VSUBS
+= GND via_dev$1_87/VSUBS
+= GND via_dev$1_125/VSUBS
+= GND via_dev$1_69/VSUBS
+= GND via_dev$1_84/VSUBS
+= GND via_dev_102/VSUBS
+= GND via_dev_120/VSUBS
+= GND via_dev$1_124/VSUBS
+= GND via_dev_101/VSUBS
+= GND via_dev_67/VSUBS
+= GND via_dev$1_68/VSUBS
+= GND via_dev_91/VSUBS
+= GND via_dev$1_85/VSUBS
+= GND via_dev_92/VSUBS
+= GND via_dev_93/VSUBS
+= GND via_dev_94/VSUBS
+= GND via_dev_95/VSUBS
+= GND via_dev_66/VSUBS
+= GND via_dev_68/VSUBS
+= GND via_dev_99/VSUBS
+= GND via_dev$1_101/VSUBS
+= GND via_dev$1_100/VSUBS
+= GND via_dev$1_102/VSUBS
+= GND via_dev$1_103/VSUBS
+= GND via_dev$1_114/VSUBS
+= GND via_dev$1_67/VSUBS
+= GND via_dev$1_82/VSUBS
+= GND via_dev_115/VSUBS
+= GND via_dev$1_115/VSUBS
+= GND via_dev_84/VSUBS
+= GND via_dev$1_66/VSUBS
+= GND via_dev_65/VSUBS
+= GND via_dev_88/VSUBS
+= GND via_dev$1_83/VSUBS
+= GND via_dev$1_113/VSUBS
+= GND via_dev$1_65/VSUBS
+= GND via_dev$1_80/VSUBS
+= GND via_dev_90/VSUBS
+= GND via_dev_114/VSUBS
+= GND via_dev$1_112/VSUBS
+= GND via_dev_85/VSUBS
+= GND via_dev$1_64/VSUBS
+= GND via_dev_111/VSUBS
+= GND via_dev_79/VSUBS
+= GND via_dev$1_81/VSUBS
+= GND via_dev_64/VSUBS
+= GND via_dev_110/VSUBS
+= GND via_dev_87/VSUBS
+= GND via_dev$1_97/VSUBS
+= GND via_dev$1_96/VSUBS
+= GND via_dev$1_98/VSUBS
+= GND via_dev$1_99/VSUBS
+= GND via_dev$1_118/VSUBS
+= GND via_dev$1_95/VSUBS
+= GND via_dev$1_78/VSUBS
+= GND via_dev_113/VSUBS
+= GND via_dev$1_119/VSUBS
+= GND via_dev_86/VSUBS
+= GND via_dev$1_94/VSUBS
+= GND via_dev_109/VSUBS
+= GND via_dev_77/VSUBS
+= GND via_dev$1_79/VSUBS
+= GND via_dev$1_117/VSUBS
+= GND via_dev$1_93/VSUBS
+= GND via_dev$1_76/VSUBS
+= GND via_dev_78/VSUBS
+= GND via_dev_126/VSUBS
+= GND via_dev_127/VSUBS
+= GND via_dev_119/VSUBS
+= GND via_dev_124/VSUBS
+= GND via_dev_125/VSUBS
+= GND via_dev_112/VSUBS
+= GND via_dev_116/VSUBS
+= GND via_dev_117/VSUBS
+= GND via_dev_118/VSUBS
+= GND via_dev$1_116/VSUBS
+= GND via_dev_89/VSUBS
+= GND via_dev_107/VSUBS
+= GND via_dev$1_92/VSUBS
+= GND via_dev_75/VSUBS
+= GND via_dev$1_77/VSUBS
+= GND via_dev_80/VSUBS
+= GND via_dev_81/VSUBS
+= GND via_dev_82/VSUBS
+= GND via_dev_83/VSUBS
+= GND via_dev_106/VSUBS
+= GND via_dev_108/VSUBS
+= GND via_dev_76/VSUBS
+= GND via_dev$1_13/VSUBS
+= GND via_dev$1_12/VSUBS
+= GND via_dev$1_14/VSUBS
+= GND via_dev$1_15/VSUBS
+= GND via_dev$1_17/VSUBS
+= GND via_dev$1_51/VSUBS
+= GND via_dev$1_46/VSUBS
+= GND via_dev_11/VSUBS
+= GND via_dev$1_18/VSUBS
+= GND via_dev_44/VSUBS
+= GND via_dev$1_50/VSUBS
+= GND via_dev_49/VSUBS
+= GND via_dev_29/VSUBS
+= GND via_dev$1_47/VSUBS
+= GND via_dev$1_29/VSUBS
+= GND via_dev$1_49/VSUBS
+= GND via_dev$1_44/VSUBS
+= GND via_dev_56/VSUBS
+= GND via_dev_10/VSUBS
+= GND via_dev$1_24/VSUBS
+= GND via_dev_45/VSUBS
+= GND via_dev_31/VSUBS
+= GND via_dev$1_48/VSUBS
+= GND via_dev$1_45/VSUBS
+= GND via_dev_63/VSUBS
+= GND via_dev_30/VSUBS
+= GND via_dev_48/VSUBS
+= GND via_dev_28/VSUBS
+= GND via_dev$1_9/VSUBS
+= GND via_dev$1_8/VSUBS
+= GND via_dev$1_10/VSUBS
+= GND via_dev$1_11/VSUBS
+= GND via_dev$1_16/VSUBS
+= GND via_dev$1_43/VSUBS
+= GND via_dev$1_62/VSUBS
+= GND via_dev_9/VSUBS
+= GND via_dev$1_21/VSUBS
+= GND via_dev_46/VSUBS
+= GND via_dev$1_42/VSUBS
+= GND via_dev_27/VSUBS
+= GND via_dev_61/VSUBS
+= GND via_dev$1_63/VSUBS
+= GND via_dev$1_20/VSUBS
+= GND via_dev$1_41/VSUBS
+= GND via_dev$1_60/VSUBS
+= GND via_dev_62/VSUBS
+= GND via_dev_8/VSUBS
+= GND via_dev$1_19/VSUBS
+= GND via_dev_47/VSUBS
+= GND via_dev_25/VSUBS
+= GND via_dev$1_40/VSUBS
+= GND via_dev_59/VSUBS
+= GND via_dev$1_61/VSUBS
+= GND via_dev$1_5/VSUBS
+= GND via_dev$1_4/VSUBS
+= GND via_dev$1_6/VSUBS
+= GND via_dev$1_7/VSUBS
+= GND via_dev$1_1/VSUBS
+= GND via_dev$1_0/VSUBS
+= GND via_dev$1_2/VSUBS
+= GND via_dev$1_3/VSUBS
+= GND via_dev$1_25/VSUBS
+= GND via_dev_40/VSUBS
+= GND via_dev_41/VSUBS
+= GND via_dev_42/VSUBS
+= GND via_dev_43/VSUBS
+= GND via_dev$1_39/VSUBS
+= GND via_dev_24/VSUBS
+= GND via_dev_26/VSUBS
+= GND via_dev$1_58/VSUBS
+= GND via_dev_60/VSUBS
+= GND via_dev_3/VSUBS
+= GND via_dev$1_26/VSUBS
+= GND via_dev_36/VSUBS
+= GND via_dev$1_38/VSUBS
+= GND via_dev_23/VSUBS
+= GND via_dev_57/VSUBS
+= GND via_dev$1_59/VSUBS
+= GND via_dev$1_23/VSUBS
+= GND via_dev$1_37/VSUBS
+= GND via_dev$1_56/VSUBS
+= GND via_dev_58/VSUBS
+= GND via_dev_2/VSUBS
+= GND via_dev$1_22/VSUBS
+= GND via_dev_37/VSUBS
+= GND via_dev_21/VSUBS
+= GND via_dev$1_36/VSUBS
+= GND via_dev_54/VSUBS
+= GND via_dev$1_57/VSUBS
+= GND via_dev$1_30/VSUBS
+= GND via_dev$1_35/VSUBS
+= GND via_dev_20/VSUBS
+= GND via_dev_22/VSUBS
+= GND via_dev$1_54/VSUBS
+= GND via_dev_55/VSUBS
+= GND via_dev_1/VSUBS
+= GND via_dev$1_31/VSUBS
+= GND via_dev_38/VSUBS
+= GND via_dev$1_34/VSUBS
+= GND via_dev_19/VSUBS
+= GND via_dev_52/VSUBS
+= GND via_dev$1_55/VSUBS
+= GND via_dev$1_28/VSUBS
+= GND via_dev$1_33/VSUBS
+= GND via_dev$1_52/VSUBS
+= GND via_dev_53/VSUBS
+= GND via_dev_14/VSUBS
+= GND via_dev_15/VSUBS
+= GND via_dev_7/VSUBS
+= GND via_dev_12/VSUBS
+= GND via_dev_13/VSUBS
+= GND via_dev_0/VSUBS
+= GND via_dev_4/VSUBS
+= GND via_dev_5/VSUBS
+= GND via_dev_6/VSUBS
+= GND via_dev$1_27/VSUBS
+= GND via_dev_32/VSUBS
+= GND via_dev_33/VSUBS
+= GND via_dev_34/VSUBS
+= GND via_dev_35/VSUBS
+= GND via_dev_39/VSUBS
+= GND via_dev_16/VSUBS
+= GND via_dev_17/VSUBS
+= GND via_dev_18/VSUBS
+= GND via_dev$1_32/VSUBS
+= GND via_dev_50/VSUBS
+= GND via_dev$1_53/VSUBS
+= GND via_dev_51/VSUBS
+R a_2735_n8622# 45
+= a_2735_n8622# via_dev$1_4/m1_0_0#
+= a_2735_n8622# a_1337_n8470#
+= a_2735_n8622# via_dev$1_25/m1_0_0#
+= a_2735_n8622# m2_1427_n8438#
+= a_2735_n8622# via_dev_3/m1_0_0#
+= a_2735_n8622# m3_2064_n11006#
+= a_2735_n8622# via_dev_7/m1_0_0#
+R a_2735_n9355# 44
+= a_2735_n9355# via_dev$1_7/m1_0_0#
+= a_2735_n9355# a_1337_n9211#
+= a_2735_n9355# via_dev$1_23/m1_0_0#
+= a_2735_n9355# m2_1427_n9179#
+= a_2735_n9355# via_dev_2/m1_0_0#
+= a_2735_n9355# m3_1928_n11006#
+= a_2735_n9355# via_dev_6/m1_0_0#
+R a_1337_n9945# 43
+= a_1337_n9945# via_dev$1_0/m1_0_0#
+= a_1337_n9945# a_2735_n10097#
+= a_1337_n9945# via_dev$1_30/m1_0_0#
+= a_1337_n9945# m2_1427_n9913#
+= a_1337_n9945# via_dev_1/m1_0_0#
+= a_1337_n9945# m3_1792_n11006#
+= a_1337_n9945# via_dev_5/m1_0_0#

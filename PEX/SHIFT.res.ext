@@ -1,0 +1,551 @@
+scale 1000 1 0.5
+rnode "A11.t0" 0 0 -47 -8265 0
+rnode "A11.t1" 0 0 -47 -7784 0
+rnode "A11.n0" 0 0 -47 -7881 0
+rnode "A11" 0 0 -62 -7889 0
+resist "A11" "A11.n0" 0.016875
+resist "A11.n0" "A11.t1" 12.411
+resist "A11.n0" "A11.t0" 28.8934
+rnode "OUT14.t1" 0 0 2785 -9741 0
+rnode "OUT14.t0" 0 0 2785 -9890 0
+rnode "OUT14.n0" 0 0 2785 -9817 0
+rnode "OUT14" 0 0 2778 -9852 0
+resist "OUT14.n0" "OUT14.t0" 4.599
+resist "OUT14.n0" "OUT14.t1" 4.788
+resist "OUT14" "OUT14.n0" 6.33938
+rnode "A4.t0" 0 0 -47 -3071 0
+rnode "A4.t1" 0 0 -47 -2590 0
+rnode "A4.n0" 0 0 -47 -2687 0
+rnode "A4" 0 0 -62 -2695 0
+resist "A4" "A4.n0" 0.016875
+resist "A4.n0" "A4.t1" 12.411
+resist "A4.n0" "A4.t0" 28.8934
+rnode "A14.t0" 0 0 -47 -10491 0
+rnode "A14.t1" 0 0 -47 -10010 0
+rnode "A14.n0" 0 0 -47 -10107 0
+rnode "A14" 0 0 -62 -10115 0
+resist "A14" "A14.n0" 0.016875
+resist "A14.n0" "A14.t1" 12.411
+resist "A14.n0" "A14.t0" 28.8934
+rnode "A7.t0" 0 0 -47 -5297 0
+rnode "A7.t1" 0 0 -47 -4816 0
+rnode "A7.n0" 0 0 -47 -4913 0
+rnode "A7" 0 0 -62 -4921 0
+resist "A7" "A7.n0" 0.016875
+resist "A7.n0" "A7.t1" 12.411
+resist "A7.n0" "A7.t0" 28.8934
+rnode "A10.t0" 0 0 -47 -7523 0
+rnode "A10.t1" 0 0 -47 -7042 0
+rnode "A10.n0" 0 0 -47 -7139 0
+rnode "A10" 0 0 -62 -7147 0
+resist "A10" "A10.n0" 0.016875
+resist "A10.n0" "A10.t1" 12.411
+resist "A10.n0" "A10.t0" 28.8934
+rnode "A6.t0" 0 0 -47 -4555 0
+rnode "A6.t1" 0 0 -47 -4074 0
+rnode "A6.n0" 0 0 -47 -4171 0
+rnode "A6" 0 0 -62 -4179 0
+resist "A6" "A6.n0" 0.016875
+resist "A6.n0" "A6.t1" 12.411
+resist "A6.n0" "A6.t0" 28.8934
+rnode "A1.t0" 0 0 -47 -845 0
+rnode "A1.t1" 0 0 -47 -364 0
+rnode "A1.n0" 0 0 -47 -461 0
+rnode "A1" 0 0 -62 -469 0
+resist "A1" "A1.n0" 0.016875
+resist "A1.n0" "A1.t1" 12.411
+resist "A1.n0" "A1.t0" 28.8934
+rnode "OUT5.t1" 0 0 2785 -3108 0
+rnode "OUT5.t0" 0 0 2785 -3257 0
+rnode "OUT5.n0" 0 0 2785 -3184 0
+rnode "OUT5" 0 0 2778 -3174 0
+resist "OUT5.n0" "OUT5.t0" 4.599
+resist "OUT5.n0" "OUT5.t1" 4.788
+resist "OUT5" "OUT5.n0" 6.31125
+rnode "OUT12.t1" 0 0 2785 -8266 0
+rnode "OUT12.t0" 0 0 2785 -8415 0
+rnode "OUT12.n0" 0 0 2785 -8342 0
+rnode "OUT12" 0 0 2778 -8368 0
+resist "OUT12.n0" "OUT12.t0" 4.599
+resist "OUT12.n0" "OUT12.t1" 4.788
+resist "OUT12" "OUT12.n0" 6.32925
+rnode "OUT2.t1" 0 0 2785 -892 0
+rnode "OUT2.t0" 0 0 2785 -1041 0
+rnode "OUT2.n0" 0 0 2785 -968 0
+rnode "OUT2" 0 0 2778 -948 0
+resist "OUT2.n0" "OUT2.t0" 4.599
+resist "OUT2.n0" "OUT2.t1" 4.788
+resist "OUT2" "OUT2.n0" 6.3225
+rnode "OUT0.t1" 0 0 2785 583 0
+rnode "OUT0.t0" 0 0 2785 434 0
+rnode "OUT0.n0" 0 0 2785 507 0
+rnode "OUT0" 0 0 2778 536 0
+resist "OUT0.n0" "OUT0.t0" 4.599
+resist "OUT0.n0" "OUT0.t1" 4.788
+resist "OUT0" "OUT0.n0" 6.33262
+rnode "A3.t0" 0 0 -47 -2329 0
+rnode "A3.t1" 0 0 -47 -1848 0
+rnode "A3.n0" 0 0 -47 -1945 0
+rnode "A3" 0 0 -62 -1953 0
+resist "A3" "A3.n0" 0.016875
+resist "A3.n0" "A3.t1" 12.411
+resist "A3.n0" "A3.t0" 28.8934
+rnode "OUT3.t1" 0 0 2785 -1633 0
+rnode "OUT3.t0" 0 0 2785 -1782 0
+rnode "OUT3.n0" 0 0 2785 -1709 0
+rnode "OUT3" 0 0 2778 -1690 0
+resist "OUT3.n0" "OUT3.t0" 4.599
+resist "OUT3.n0" "OUT3.t1" 4.788
+resist "OUT3" "OUT3.n0" 6.32137
+killnode "a_2735_n7147#"
+rnode "a_2735_n7147.t1" 0 15.6404 1387 -6828 0
+rnode "a_2735_n7147.t2" 0 15.023 1387 -6977 0
+rnode "a_2735_n7147.n0" 0 1156.42 1387 -6904 0
+rnode "a_2735_n7147.t0" 0 812.914 2785 -6996 0
+resist "a_2735_n7147.n0" "a_2735_n7147.t2" 4.599
+resist "a_2735_n7147.n0" "a_2735_n7147.t1" 4.788
+resist "a_2735_n7147.t0" "a_2735_n7147.n0" 29.4064
+killnode "a_2735_n6735#"
+rnode "a_2735_n6735.t1" 0 1634.56 2785 -6735 0
+rnode "a_2735_n6735.t2" 0 33.3216 1387 -892 0
+rnode "a_2735_n6735.t3" 0 32.0063 1387 -1041 0
+rnode "a_2735_n6735.n0" 0 141.99 1387 -968 0
+rnode "a_2735_n6735.n1" 0 3936.77 2376 -1194 0
+rnode "a_2735_n6735.t0" 0 121.358 2785 -1097 0
+resist "a_2735_n6735.n0" "a_2735_n6735.t3" 4.599
+resist "a_2735_n6735.n0" "a_2735_n6735.t2" 4.788
+resist "a_2735_n6735.n1" "a_2735_n6735.n0" 12.0769
+resist "a_2735_n6735.t0" "a_2735_n6735.n1" 17.3711
+resist "a_2735_n6735.n1" "a_2735_n6735.t1" 30.3491
+rnode "OUT10.t1" 0 0 2785 -6791 0
+rnode "OUT10.t0" 0 0 2785 -6940 0
+rnode "OUT10.n0" 0 0 2785 -6867 0
+rnode "OUT10" 0 0 2778 -6884 0
+resist "OUT10.n0" "OUT10.t0" 4.599
+resist "OUT10.n0" "OUT10.t1" 4.788
+resist "OUT10" "OUT10.n0" 6.31913
+rnode "A13.t0" 0 0 -47 -9749 0
+rnode "A13.t1" 0 0 -47 -9268 0
+rnode "A13.n0" 0 0 -47 -9365 0
+rnode "A13" 0 0 -62 -9373 0
+resist "A13" "A13.n0" 0.016875
+resist "A13.n0" "A13.t1" 12.411
+resist "A13.n0" "A13.t0" 28.8934
+rnode "OUT1.t1" 0 0 2785 -158 0
+rnode "OUT1.t0" 0 0 2785 -307 0
+rnode "OUT1.n0" 0 0 2785 -234 0
+rnode "OUT1" 0 0 2778 -206 0
+resist "OUT1.n0" "OUT1.t0" 4.599
+resist "OUT1.n0" "OUT1.t1" 4.788
+resist "OUT1" "OUT1.n0" 6.3315
+killnode "a_2735_n506#"
+rnode "a_2735_n506.t1" 0 1302.63 2785 -6001 0
+rnode "a_2735_n506.t2" 0 30.4913 1387 -158 0
+rnode "a_2735_n506.t3" 0 29.2877 1387 -307 0
+rnode "a_2735_n506.n0" 0 140.39 1387 -234 0
+rnode "a_2735_n506.n1" 0 3693.03 2513 -460 0
+rnode "a_2735_n506.t0" 0 104.173 2785 -363 0
+resist "a_2735_n506.n0" "a_2735_n506.t3" 4.599
+resist "a_2735_n506.n0" "a_2735_n506.t2" 4.788
+resist "a_2735_n506.n1" "a_2735_n506.n0" 12.231
+resist "a_2735_n506.t0" "a_2735_n506.n1" 17.217
+resist "a_2735_n506.n1" "a_2735_n506.t1" 30.2965
+killnode "a_2735_227#"
+rnode "a_2735_227.t1" 0 533.978 2785 -5260 0
+rnode "a_2735_227.t2" 0 14.593 1387 583 0
+rnode "a_2735_227.t3" 0 14.017 1387 434 0
+rnode "a_2735_227.n0" 0 72.555 1387 507 0
+rnode "a_2735_227.n1" 0 1813.97 2649 281 0
+rnode "a_2735_227.t0" 0 50.8907 2785 378 0
+resist "a_2735_227.n0" "a_2735_227.t3" 4.599
+resist "a_2735_227.n0" "a_2735_227.t2" 4.788
+resist "a_2735_227.n1" "a_2735_227.n0" 12.384
+resist "a_2735_227.t0" "a_2735_227.n1" 17.064
+resist "a_2735_227.n1" "a_2735_227.t1" 30.042
+killnode "a_2735_n8951#"
+rnode "a_2735_n8951.t1" 0 2865.22 2785 -8951 0
+rnode "a_2735_n8951.t2" 0 42.86 1387 -3126 0
+rnode "a_2735_n8951.t3" 0 41.1682 1387 -3275 0
+rnode "a_2735_n8951.n0" 0 144.974 1387 -3202 0
+rnode "a_2735_n8951.n1" 0 4638.22 1968 -3410 0
+rnode "a_2735_n8951.t0" 0 167.559 2785 -3313 0
+resist "a_2735_n8951.n0" "a_2735_n8951.t3" 4.599
+resist "a_2735_n8951.n0" "a_2735_n8951.t2" 4.788
+resist "a_2735_n8951.n1" "a_2735_n8951.n0" 11.5976
+resist "a_2735_n8951.t0" "a_2735_n8951.n1" 17.8301
+resist "a_2735_n8951.n1" "a_2735_n8951.t1" 30.8519
+rnode "OUT13.t1" 0 0 2785 -9007 0
+rnode "OUT13.t0" 0 0 2785 -9156 0
+rnode "OUT13.n0" 0 0 2785 -9083 0
+rnode "OUT13" 0 0 2778 -9110 0
+resist "OUT13.n0" "OUT13.t0" 4.599
+resist "OUT13.n0" "OUT13.t1" 4.788
+resist "OUT13" "OUT13.n0" 6.33038
+rnode "A9.t0" 0 0 -47 -6781 0
+rnode "A9.t1" 0 0 -47 -6300 0
+rnode "A9.n0" 0 0 -47 -6397 0
+rnode "A9" 0 0 -62 -6405 0
+resist "A9" "A9.n0" 0.016875
+resist "A9.n0" "A9.t1" 12.411
+resist "A9.n0" "A9.t0" 28.8934
+rnode "A15.t0" 0 0 -47 -10752 0
+rnode "A15" 0 0 -62 -10857 0
+resist "A15" "A15.t0" 12.4279
+killnode "a_2735_n9685#"
+rnode "a_2735_n9685.t1" 0 3299.7 2785 -9685 0
+rnode "a_2735_n9685.t2" 0 45.4126 1387 -3860 0
+rnode "a_2735_n9685.t3" 0 43.62 1387 -4009 0
+rnode "a_2735_n9685.n0" 0 143.736 1387 -3936 0
+rnode "a_2735_n9685.n1" 0 4775.56 1832 -4144 0
+rnode "a_2735_n9685.t0" 0 191.968 2785 -4047 0
+resist "a_2735_n9685.n0" "a_2735_n9685.t3" 4.599
+resist "a_2735_n9685.n0" "a_2735_n9685.t2" 4.788
+resist "a_2735_n9685.n1" "a_2735_n9685.n0" 11.4446
+resist "a_2735_n9685.t0" "a_2735_n9685.n1" 17.9831
+resist "a_2735_n9685.n1" "a_2735_n9685.t1" 31.0129
+rnode "OUT8.t1" 0 0 2785 -5316 0
+rnode "OUT8.t0" 0 0 2785 -5465 0
+rnode "OUT8.n0" 0 0 2785 -5392 0
+rnode "OUT8" 0 0 2778 -5400 0
+resist "OUT8.n0" "OUT8.t0" 4.599
+resist "OUT8.n0" "OUT8.t1" 4.788
+resist "OUT8" "OUT8.n0" 6.309
+killnode "a_2735_n5672#"
+rnode "a_2735_n5672.t1" 0 15.1013 1387 -5353 0
+rnode "a_2735_n5672.t2" 0 14.5052 1387 -5502 0
+rnode "a_2735_n5672.n0" 0 1375.82 1387 -5429 0
+rnode "a_2735_n5672.t0" 0 994.575 2785 -5521 0
+resist "a_2735_n5672.n0" "a_2735_n5672.t2" 4.599
+resist "a_2735_n5672.n0" "a_2735_n5672.t1" 4.788
+resist "a_2735_n5672.t0" "a_2735_n5672.n0" 29.4064
+rnode "OUT9.t1" 0 0 2785 -6057 0
+rnode "OUT9.t0" 0 0 2785 -6206 0
+rnode "OUT9.n0" 0 0 2785 -6133 0
+rnode "OUT9" 0 0 2778 -6142 0
+resist "OUT9.n0" "OUT9.t0" 4.599
+resist "OUT9.n0" "OUT9.t1" 4.788
+resist "OUT9" "OUT9.n0" 6.31012
+killnode "a_2735_n6405#"
+rnode "a_2735_n6405.t1" 0 30.7443 1387 -6094 0
+rnode "a_2735_n6405.t2" 0 29.5307 1387 -6243 0
+rnode "a_2735_n6405.n0" 0 2536.84 1387 -6170 0
+rnode "a_2735_n6405.t0" 0 1802.88 2785 -6262 0
+resist "a_2735_n6405.n0" "a_2735_n6405.t2" 4.599
+resist "a_2735_n6405.n0" "a_2735_n6405.t1" 4.788
+resist "a_2735_n6405.t0" "a_2735_n6405.n0" 29.4064
+rnode "A8.t0" 0 0 -47 -6039 0
+rnode "A8.t1" 0 0 -47 -5558 0
+rnode "A8.n0" 0 0 -47 -5655 0
+rnode "A8" 0 0 -62 -5663 0
+resist "A8" "A8.n0" 0.016875
+resist "A8.n0" "A8.t1" 12.411
+resist "A8.n0" "A8.t0" 28.8934
+rnode "A0.t0" 0 0 -47 -103 0
+rnode "A0.t1" 0 0 -47 378 0
+rnode "A0.n0" 0 0 -47 281 0
+rnode "A0" 0 0 -62 273 0
+resist "A0" "A0.n0" 0.016875
+resist "A0.n0" "A0.t1" 12.411
+resist "A0.n0" "A0.t0" 28.8934
+killnode "a_2735_n7476#"
+rnode "a_2735_n7476.t1" 0 2021.61 2785 -7476 0
+rnode "a_2735_n7476.t2" 0 36.818 1387 -1633 0
+rnode "a_2735_n7476.t3" 0 35.3647 1387 -1782 0
+rnode "a_2735_n7476.n0" 0 145.384 1387 -1709 0
+rnode "a_2735_n7476.n1" 0 4227.63 2240 -1935 0
+rnode "a_2735_n7476.t0" 0 133.191 2785 -1838 0
+resist "a_2735_n7476.n0" "a_2735_n7476.t3" 4.599
+resist "a_2735_n7476.n0" "a_2735_n7476.t2" 4.788
+resist "a_2735_n7476.n1" "a_2735_n7476.n0" 11.9239
+resist "a_2735_n7476.t0" "a_2735_n7476.n1" 17.5241
+resist "a_2735_n7476.n1" "a_2735_n7476.t1" 30.5298
+rnode "OUT11.t1" 0 0 2785 -7532 0
+rnode "OUT11.t0" 0 0 2785 -7681 0
+rnode "OUT11.n0" 0 0 2785 -7608 0
+rnode "OUT11" 0 0 2778 -7626 0
+resist "OUT11.n0" "OUT11.t0" 4.599
+resist "OUT11.n0" "OUT11.t1" 4.788
+resist "OUT11" "OUT11.n0" 6.32025
+rnode "A2.t0" 0 0 -47 -1587 0
+rnode "A2.t1" 0 0 -47 -1106 0
+rnode "A2.n0" 0 0 -47 -1203 0
+rnode "A2" 0 0 -62 -1211 0
+resist "A2" "A2.n0" 0.016875
+resist "A2.n0" "A2.t1" 12.411
+resist "A2.n0" "A2.t0" 28.8934
+killnode "a_2735_n4931#"
+rnode "a_2735_n4931.t1" 0 1822.57 2785 -10426 0
+rnode "a_2735_n4931.t2" 0 23.1871 1387 -4601 0
+rnode "a_2735_n4931.t3" 0 22.2718 1387 -4750 0
+rnode "a_2735_n4931.n0" 0 69.1113 1387 -4677 0
+rnode "a_2735_n4931.n1" 0 2363.43 1696 -4885 0
+rnode "a_2735_n4931.t0" 0 99.4288 2785 -4788 0
+resist "a_2735_n4931.n0" "a_2735_n4931.t3" 4.599
+resist "a_2735_n4931.n0" "a_2735_n4931.t2" 4.788
+resist "a_2735_n4931.n1" "a_2735_n4931.n0" 11.2916
+resist "a_2735_n4931.t0" "a_2735_n4931.n1" 18.1361
+resist "a_2735_n4931.n1" "a_2735_n4931.t1" 31.174
+rnode "OUT4.t1" 0 0 2785 -2367 0
+rnode "OUT4.t0" 0 0 2785 -2516 0
+rnode "OUT4.n0" 0 0 2785 -2443 0
+rnode "OUT4" 0 0 2778 -2432 0
+resist "OUT4.n0" "OUT4.t0" 4.599
+resist "OUT4.n0" "OUT4.t1" 4.788
+resist "OUT4" "OUT4.n0" 6.31238
+killnode "a_2735_n8210#"
+rnode "a_2735_n8210.t1" 0 2442.82 2785 -8210 0
+rnode "a_2735_n8210.t2" 0 40.1689 1387 -2385 0
+rnode "a_2735_n8210.t3" 0 38.5833 1387 -2534 0
+rnode "a_2735_n8210.n0" 0 145.875 1387 -2461 0
+rnode "a_2735_n8210.n1" 0 4476.29 2104 -2669 0
+rnode "a_2735_n8210.t0" 0 156.262 2785 -2572 0
+resist "a_2735_n8210.n0" "a_2735_n8210.t3" 4.599
+resist "a_2735_n8210.n0" "a_2735_n8210.t2" 4.788
+resist "a_2735_n8210.n1" "a_2735_n8210.n0" 11.7506
+resist "a_2735_n8210.t0" "a_2735_n8210.n1" 17.6771
+resist "a_2735_n8210.n1" "a_2735_n8210.t1" 30.6908
+rnode "A5.t0" 0 0 -47 -3813 0
+rnode "A5.t1" 0 0 -47 -3332 0
+rnode "A5.n0" 0 0 -47 -3429 0
+rnode "A5" 0 0 -62 -3437 0
+resist "A5" "A5.n0" 0.016875
+resist "A5.n0" "A5.t1" 12.411
+resist "A5.n0" "A5.t0" 28.8934
+rnode "OUT6.t1" 0 0 2785 -3842 0
+rnode "OUT6.t0" 0 0 2785 -3991 0
+rnode "OUT6.n0" 0 0 2785 -3918 0
+rnode "OUT6" 0 0 2778 -3916 0
+resist "OUT6.n0" "OUT6.t0" 4.599
+resist "OUT6.n0" "OUT6.t1" 4.788
+resist "OUT6" "OUT6.n0" 6.30788
+rnode "OUT7.t1" 0 0 2785 -4583 0
+rnode "OUT7.t0" 0 0 2785 -4732 0
+rnode "OUT7.n0" 0 0 2785 -4659 0
+rnode "OUT7" 0 0 2778 -4658 0
+resist "OUT7.n0" "OUT7.t0" 4.599
+resist "OUT7.n0" "OUT7.t1" 4.788
+resist "OUT7" "OUT7.n0" 6.30788
+rnode "OUT15.t1" 0 0 2785 -10482 0
+rnode "OUT15.t0" 0 0 2785 -10631 0
+rnode "OUT15.n0" 0 0 2785 -10558 0
+rnode "OUT15" 0 0 2778 -10594 0
+resist "OUT15.n0" "OUT15.t0" 4.599
+resist "OUT15.n0" "OUT15.t1" 4.788
+resist "OUT15" "OUT15.n0" 6.3405
+rnode "GND.n0" 0 0 733 844 0
+rnode "GND.t12" 0 0 1387 -836 0
+rnode "GND.t14" 0 0 1387 -102 0
+rnode "GND.t13" 0 0 1387 639 0
+rnode "GND.t17" 0 0 534 639 0
+rnode "GND.n1" 0 0 358 868 0
+rnode "GND.t18" 0 0 534 -103 0
+rnode "GND.n2" 0 0 221 868 0
+rnode "GND.t1" 0 0 -47 639 0
+rnode "GND.n3" 0 0 152 662 0
+rnode "GND.t0" 0 0 -47 611 0
+rnode "GND.n4" 0 0 733 -645 0
+rnode "GND.t16" 0 0 534 127 0
+rnode "GND.n5" 0 0 1586 165 0
+rnode "GND.t10" 0 0 2785 -4527 0
+rnode "GND.t9" 0 0 2785 -3786 0
+rnode "GND.t6" 0 0 2785 -3052 0
+rnode "GND.t5" 0 0 2785 -2311 0
+rnode "GND.t8" 0 0 2785 -1577 0
+rnode "GND.t7" 0 0 2785 -836 0
+rnode "GND.t3" 0 0 2785 -102 0
+rnode "GND.t4" 0 0 2785 639 0
+rnode "GND.t2" 0 0 2785 611 0
+rnode "GND.t11" 0 0 1387 611 0
+rnode "GND.n6" 0 0 2984 89 0
+rnode "GND.n7" 0 0 2689 868 0
+rnode "GND.n8" 0 0 2552 868 0
+rnode "GND.n9" 0 0 2416 868 0
+rnode "GND.n10" 0 0 2280 868 0
+rnode "GND.n11" 0 0 2144 868 0
+rnode "GND.n12" 0 0 2008 868 0
+rnode "GND.n13" 0 0 1872 868 0
+rnode "GND.n14" 0 0 1736 868 0
+rnode "GND.n15" 0 0 1586 844 0
+rnode "GND.n16" 0 0 1291 868 0
+rnode "GND.n17" 0 0 1154 868 0
+rnode "GND.n18" 0 0 1018 868 0
+rnode "GND.n19" 0 0 802 868 0
+rnode "GND.t15" 0 0 1387 -1577 0
+rnode "GND" 0 0 873 853 0
+resist "GND" "GND.n19" 0.016875
+resist "GND.n19" "GND.n18" 0.105
+resist "GND.n9" "GND.n8" 0.105
+resist "GND.n10" "GND.n9" 0.105
+resist "GND.n11" "GND.n10" 0.105
+resist "GND.n12" "GND.n11" 0.105
+resist "GND.n13" "GND.n12" 0.105
+resist "GND.n14" "GND.n13" 0.105
+resist "GND.n18" "GND.n17" 0.105
+resist "GND.n8" "GND.n7" 0.106875
+resist "GND.n17" "GND.n16" 0.106875
+resist "GND.n2" "GND.n1" 0.106875
+resist "GND.n6" "GND.t2" 0.108456
+resist "GND.t16" "GND.n4" 0.108491
+resist "GND.t11" "GND.n5" 0.108508
+resist "GND.n19" "GND.n0" 0.129375
+resist "GND.n15" "GND.n14" 0.13125
+resist "GND.n3" "GND.n2" 0.32894
+resist "GND.n1" "GND.n0" 0.553125
+resist "GND.n16" "GND.n15" 0.553125
+resist "GND.t0" "GND.n3" 4.10228
+resist "GND.n15" "GND.n5" 4.38517
+resist "GND.n4" "GND.n0" 4.38933
+resist "GND.n7" "GND.n6" 4.93598
+resist "GND.n3" "GND.t1" 10.4951
+resist "GND.n7" "GND.t4" 10.566
+resist "GND.n16" "GND.t13" 10.566
+resist "GND.n1" "GND.t17" 10.566
+resist "GND.n8" "GND.t3" 11.5653
+resist "GND.n17" "GND.t14" 11.5653
+resist "GND.n2" "GND.t18" 11.5664
+resist "GND.n9" "GND.t7" 12.5325
+resist "GND.n18" "GND.t12" 12.5325
+resist "GND" "GND.t15" 13.5299
+resist "GND.n10" "GND.t8" 13.5468
+resist "GND.n11" "GND.t5" 14.5336
+resist "GND.n12" "GND.t6" 15.5283
+resist "GND.n13" "GND.t9" 16.5151
+resist "GND.n14" "GND.t10" 17.5097
+resist "GND.n4" "GND.t0" 157.616
+resist "GND.n5" "GND.t16" 231.462
+resist "GND.n6" "GND.t11" 379.423
+rnode "A12.t0" 0 0 -47 -9007 0
+rnode "A12.t1" 0 0 -47 -8526 0
+rnode "A12.n0" 0 0 -47 -8623 0
+rnode "A12" 0 0 -62 -8631 0
+resist "A12" "A12.n0" 0.016875
+resist "A12.n0" "A12.t1" 12.411
+resist "A12.n0" "A12.t0" 28.8934
+device msubckt nfet_03v3 484 378 485 379  "GND.t16" "SH2" 112 0 "m2_n7_466#" 100 15100,502 "a_484_434#" 100 7450,249
+device msubckt nfet_03v3 484 -5353 485 -5352  "GND.t16" "SH2B" 112 0 "a_484_n5502#" 100 7450,249 "m2_n7_n3986#" 100 10500,410
+device msubckt nfet_03v3 1337 -892 1338 -891  "GND.t11" "SH4B" 112 0 "a_2735_n6735.t2" 100 7450,249 "GND.t12" 100 10500,410
+device msubckt nfet_03v3 484 -3127 485 -3126  "GND.t16" "SH2B" 112 0 "a_484_n3276#" 100 7450,249 "m2_n7_n1760#" 100 10500,410
+device msubckt nfet_03v3 484 -2590 485 -2589  "GND.t16" "SH2" 112 0 "m2_n7_n2502#" 100 15100,502 "a_484_n2534#" 100 7450,249
+device msubckt nfet_03v3 1337 -3126 1338 -3125  "GND.t11" "SH4B" 112 0 "a_2735_n8951.t2" 100 7450,249 "a_484_n308#" 100 10800,416
+device msubckt nfet_03v3 2735 -10482 2736 -10481  "GND.t2" "SH8B" 112 0 "OUT15.t1" 100 7450,249 "a_2735_n4931.t1" 100 10800,416
+device msubckt nfet_03v3 -97 -8321 -96 -8320  "GND.t0" "SH1B" 112 0 "m2_n7_n8438#" 100 7450,249 "A11.t0" 100 10500,410
+device msubckt nfet_03v3 -97 -7784 -96 -7783  "GND.t0" "SH1" 112 0 "A11.t1" 100 15100,502 "m2_n7_n7696#" 100 7450,249
+device msubckt nfet_03v3 -97 -5558 -96 -5557  "GND.t0" "SH1" 112 0 "A8.t1" 100 15100,502 "m2_n7_n5470#" 100 7450,249
+device msubckt nfet_03v3 484 -2385 485 -2384  "GND.t16" "SH2B" 112 0 "a_484_n2534#" 100 7450,249 "m2_n7_n1018#" 100 10500,410
+device msubckt nfet_03v3 2735 -9946 2736 -9945  "GND.t2" "SH8" 112 0 "a_1337_n9945#" 100 15100,502 "OUT14.t0" 100 7450,249
+device msubckt nfet_03v3 2735 -158 2736 -157  "GND.t2" "SH8B" 112 0 "OUT1.t1" 100 7450,249 "GND.t3" 100 10800,416
+device msubckt nfet_03v3 484 -7042 485 -7041  "GND.t16" "SH2" 112 0 "m2_n7_n6954#" 100 15100,502 "a_484_n6986#" 100 7450,249
+device msubckt nfet_03v3 2735 -3313 2736 -3312  "GND.t2" "SH8" 112 0 "a_2735_n8951.t0" 100 14300,486 "OUT5.t0" 100 7450,249
+device msubckt nfet_03v3 2735 -8471 2736 -8470  "GND.t2" "SH8" 112 0 "a_2735_n8622#" 100 15100,502 "OUT12.t0" 100 7450,249
+device msubckt nfet_03v3 -97 -10547 -96 -10546  "GND.t0" "SH1B" 112 0 "m2_n7_n10664#" 100 7450,249 "A14.t0" 100 10500,410
+device msubckt nfet_03v3 -97 -5353 -96 -5352  "GND.t0" "SH1B" 112 0 "m2_n7_n5470#" 100 7450,249 "A7.t0" 100 10500,410
+device msubckt nfet_03v3 2735 583 2736 584  "GND.t2" "SH8B" 112 0 "OUT0.t1" 100 7450,249 "GND.t4" 100 10500,410
+device msubckt nfet_03v3 1337 -363 1338 -362  "GND.t11" "SH4" 112 0 "a_484_n308#" 100 14300,486 "a_2735_n506.t3" 100 7450,249
+device msubckt nfet_03v3 1337 -7033 1338 -7032  "GND.t11" "SH4" 112 0 "a_484_n6986#" 100 15100,502 "a_2735_n7147.t2" 100 7450,249
+device msubckt nfet_03v3 2735 -5316 2736 -5315  "GND.t2" "SH8B" 112 0 "OUT8.t1" 100 7450,249 "a_2735_227.t1" 100 10500,410
+device msubckt nfet_03v3 2735 -6057 2736 -6056  "GND.t2" "SH8B" 112 0 "OUT9.t1" 100 7450,249 "a_2735_n506.t1" 100 10800,416
+device msubckt nfet_03v3 2735 -9741 2736 -9740  "GND.t2" "SH8B" 112 0 "OUT14.t1" 100 7450,249 "a_2735_n9685.t1" 100 10500,410
+device msubckt nfet_03v3 -97 -3127 -96 -3126  "GND.t0" "SH1B" 112 0 "m2_n7_n3244#" 100 7450,249 "A4.t0" 100 10500,410
+device msubckt nfet_03v3 484 -4816 485 -4815  "GND.t16" "SH2" 112 0 "m2_n7_n4728#" 100 14200,484 "a_484_n4760#" 100 7450,249
+device msubckt nfet_03v3 484 -7579 485 -7578  "GND.t16" "SH2B" 112 0 "a_484_n7728#" 100 7450,249 "m2_n7_n6212#" 100 10500,410
+device msubckt nfet_03v3 -97 -2590 -96 -2589  "GND.t0" "SH1" 112 0 "A4.t1" 100 15100,502 "m2_n7_n2502#" 100 7450,249
+device msubckt nfet_03v3 1337 -7774 1338 -7773  "GND.t11" "SH4" 112 0 "a_484_n7728#" 100 14300,486 "a_2735_n7880#" 100 7450,249
+device msubckt nfet_03v3 1337 -9796 1338 -9795  "GND.t11" "SH4B" 112 0 "a_1337_n9945#" 100 7450,249 "a_484_n6986#" 100 10500,410
+device msubckt nfet_03v3 2735 -1097 2736 -1096  "GND.t2" "SH8" 112 0 "a_2735_n6735.t0" 100 15100,502 "OUT2.t0" 100 7450,249
+device msubckt nfet_03v3 484 -4074 485 -4073  "GND.t16" "SH2" 112 0 "m2_n7_n3986#" 100 15100,502 "a_484_n4018#" 100 7450,249
+device msubckt nfet_03v3 1337 -10001 1338 -10000  "GND.t11" "SH4" 112 0 "a_484_n9954#" 100 15100,502 "a_1337_n9945#" 100 7450,249
+device msubckt nfet_03v3 2735 -2367 2736 -2366  "GND.t2" "SH8B" 112 0 "OUT4.t1" 100 7450,249 "GND.t5" 100 10500,410
+device msubckt nfet_03v3 484 -4611 485 -4610  "GND.t16" "SH2B" 112 0 "a_484_n4760#" 100 7450,249 "m2_n7_n3244#" 100 10500,410
+device msubckt nfet_03v3 -97 -2385 -96 -2384  "GND.t0" "SH1B" 112 0 "m2_n7_n2502#" 100 7450,249 "A3.t0" 100 10500,410
+device msubckt nfet_03v3 1337 -4065 1338 -4064  "GND.t11" "SH4" 112 0 "a_484_n4018#" 100 15100,502 "a_2735_n9685.t3" 100 7450,249
+device msubckt nfet_03v3 1337 -10742 1338 -10741  "GND.t11" "SH4" 112 0 "a_484_n10696#" 100 14300,486 "a_2735_n10830#" 100 7450,249
+device msubckt nfet_03v3 -97 -7042 -96 -7041  "GND.t0" "SH1" 112 0 "A10.t1" 100 15100,502 "m2_n7_n6954#" 100 7450,249
+device msubckt nfet_03v3 484 -1848 485 -1847  "GND.t16" "SH2" 112 0 "m2_n7_n1760#" 100 14200,484 "a_484_n1792#" 100 7450,249
+device msubckt nfet_03v3 484 -10752 485 -10751  "GND.t16" "SH2" 112 0 "m2_n7_n10664#" 100 14200,484 "a_484_n10696#" 100 7450,249
+device msubckt nfet_03v3 484 -364 485 -363  "GND.t16" "SH2" 112 0 "m2_n7_n276#" 100 14200,484 "a_484_n308#" 100 7450,249
+device msubckt nfet_03v3 -97 -10010 -96 -10009  "GND.t0" "SH1" 112 0 "A14.t1" 100 15100,502 "m2_n7_n9922#" 100 7450,249
+device msubckt nfet_03v3 1337 583 1338 584  "GND.t11" "SH4B" 112 0 "a_2735_227.t2" 100 7450,249 "GND.t13" 100 10500,410
+device msubckt nfet_03v3 484 -901 485 -900  "GND.t16" "SH2B" 112 0 "a_484_n1050#" 100 7450,249 "m2_n7_466#" 100 10500,410
+device msubckt nfet_03v3 2735 -9212 2736 -9211  "GND.t2" "SH8" 112 0 "a_2735_n9355#" 100 14300,486 "OUT13.t0" 100 7450,249
+device msubckt nfet_03v3 -97 583 -96 584  "GND.t0" "SH1B" 112 0 "m2_n7_466#" 100 7450,249 "GND.t1" 100 10500,410
+device msubckt nfet_03v3 484 -9268 485 -9267  "GND.t16" "SH2" 112 0 "m2_n7_n9180#" 100 14200,484 "a_484_n9212#" 100 7450,249
+device msubckt nfet_03v3 -97 -4816 -96 -4815  "GND.t0" "SH1" 112 0 "A7.t1" 100 15100,502 "m2_n7_n4728#" 100 7450,249
+device msubckt nfet_03v3 484 -9805 485 -9804  "GND.t16" "SH2B" 112 0 "a_484_n9954#" 100 7450,249 "m2_n7_n8438#" 100 10500,410
+device msubckt nfet_03v3 1337 -8526 1338 -8525  "GND.t11" "SH4" 112 0 "a_484_n8470#" 100 15100,502 "a_2735_n8622#" 100 7450,249
+device msubckt nfet_03v3 1337 -9267 1338 -9266  "GND.t11" "SH4" 112 0 "a_484_n9212#" 100 14300,486 "a_2735_n9355#" 100 7450,249
+device msubckt nfet_03v3 -97 -7579 -96 -7578  "GND.t0" "SH1B" 112 0 "m2_n7_n7696#" 100 7450,249 "A10.t0" 100 10500,410
+device msubckt nfet_03v3 484 -1643 485 -1642  "GND.t16" "SH2B" 112 0 "a_484_n1792#" 100 7450,249 "m2_n7_n276#" 100 10500,410
+device msubckt nfet_03v3 1337 -1097 1338 -1096  "GND.t11" "SH4" 112 0 "a_484_n1050#" 100 15100,502 "a_2735_n6735.t3" 100 7450,249
+device msubckt nfet_03v3 -97 -364 -96 -363  "GND.t0" "SH1" 112 0 "A1.t1" 100 15100,502 "m2_n7_n276#" 100 7450,249
+device msubckt nfet_03v3 -97 -4074 -96 -4073  "GND.t0" "SH1" 112 0 "A6.t1" 100 15100,502 "m2_n7_n3986#" 100 7450,249
+device msubckt nfet_03v3 484 -9063 485 -9062  "GND.t16" "SH2B" 112 0 "a_484_n9212#" 100 7450,249 "m2_n7_n7696#" 100 10500,410
+device msubckt nfet_03v3 -97 -4611 -96 -4610  "GND.t0" "SH1B" 112 0 "m2_n7_n4728#" 100 7450,249 "A6.t0" 100 10500,410
+device msubckt nfet_03v3 -97 -901 -96 -900  "GND.t0" "SH1B" 112 0 "m2_n7_n1018#" 100 7450,249 "A1.t0" 100 10500,410
+device msubckt nfet_03v3 1337 -9062 1338 -9061  "GND.t11" "SH4B" 112 0 "a_2735_n9355#" 100 7450,249 "a_484_n6244#" 100 10800,416
+device msubckt nfet_03v3 1337 -8321 1338 -8320  "GND.t11" "SH4B" 112 0 "a_2735_n8622#" 100 7450,249 "a_484_n5502#" 100 10500,410
+device msubckt nfet_03v3 2735 -3108 2736 -3107  "GND.t2" "SH8B" 112 0 "OUT5.t1" 100 7450,249 "GND.t6" 100 10800,416
+device msubckt nfet_03v3 2735 -1838 2736 -1837  "GND.t2" "SH8" 112 0 "a_2735_n7476.t0" 100 14300,486 "OUT3.t0" 100 7450,249
+device msubckt nfet_03v3 2735 -8266 2736 -8265  "GND.t2" "SH8B" 112 0 "OUT12.t1" 100 7450,249 "a_2735_n8210.t1" 100 10500,410
+device msubckt nfet_03v3 484 -6300 485 -6299  "GND.t16" "SH2" 112 0 "m2_n7_n6212#" 100 14200,484 "a_484_n6244#" 100 7450,249
+device msubckt nfet_03v3 2735 -6996 2736 -6995  "GND.t2" "SH8" 112 0 "a_2735_n7147.t0" 100 15100,502 "OUT10.t0" 100 7450,249
+device msubckt nfet_03v3 2735 -892 2736 -891  "GND.t2" "SH8B" 112 0 "OUT2.t1" 100 7450,249 "GND.t7" 100 10500,410
+device msubckt nfet_03v3 2735 378 2736 379  "GND.t2" "SH8" 112 0 "a_2735_227.t0" 100 15100,502 "OUT0.t0" 100 7450,249
+device msubckt nfet_03v3 -97 -1848 -96 -1847  "GND.t0" "SH1" 112 0 "A3.t1" 100 15100,502 "m2_n7_n1760#" 100 7450,249
+device msubckt nfet_03v3 484 -6837 485 -6836  "GND.t16" "SH2B" 112 0 "a_484_n6986#" 100 7450,249 "m2_n7_n5470#" 100 10500,410
+device msubckt nfet_03v3 1337 -158 1338 -157  "GND.t11" "SH4B" 112 0 "a_2735_n506.t2" 100 7450,249 "GND.t14" 100 10800,416
+device msubckt nfet_03v3 1337 -6299 1338 -6298  "GND.t11" "SH4" 112 0 "a_484_n6244#" 100 14300,486 "a_2735_n6405.t2" 100 7450,249
+device msubckt nfet_03v3 1337 -5558 1338 -5557  "GND.t11" "SH4" 112 0 "a_484_n5502#" 100 15100,502 "a_2735_n5672.t2" 100 7450,249
+device msubckt nfet_03v3 484 583 485 584  "GND.t16" "SH2B" 112 0 "a_484_434#" 100 7450,249 "GND.t17" 100 10500,410
+device msubckt nfet_03v3 1337 -4806 1338 -4805  "GND.t11" "SH4" 112 0 "a_484_n4760#" 100 14300,486 "a_2735_n4931.t3" 100 7450,249
+device msubckt nfet_03v3 2735 -1633 2736 -1632  "GND.t2" "SH8B" 112 0 "OUT3.t1" 100 7450,249 "GND.t8" 100 10800,416
+device msubckt nfet_03v3 -97 -9268 -96 -9267  "GND.t0" "SH1" 112 0 "A13.t1" 100 15100,502 "m2_n7_n9180#" 100 7450,249
+device msubckt nfet_03v3 484 -3332 485 -3331  "GND.t16" "SH2" 112 0 "m2_n7_n3244#" 100 14200,484 "a_484_n3276#" 100 7450,249
+device msubckt nfet_03v3 1337 -6828 1338 -6827  "GND.t11" "SH4B" 112 0 "a_2735_n7147.t1" 100 7450,249 "a_484_n4018#" 100 10500,410
+device msubckt nfet_03v3 1337 -7569 1338 -7568  "GND.t11" "SH4B" 112 0 "a_2735_n7880#" 100 7450,249 "a_484_n4760#" 100 10800,416
+device msubckt nfet_03v3 2735 -6791 2736 -6790  "GND.t2" "SH8B" 112 0 "OUT10.t1" 100 7450,249 "a_2735_n6735.t1" 100 10500,410
+device msubckt nfet_03v3 484 -6095 485 -6094  "GND.t16" "SH2B" 112 0 "a_484_n6244#" 100 7450,249 "m2_n7_n4728#" 100 10500,410
+device msubckt nfet_03v3 -97 -9805 -96 -9804  "GND.t0" "SH1B" 112 0 "m2_n7_n9922#" 100 7450,249 "A13.t0" 100 10500,410
+device msubckt nfet_03v3 1337 -3331 1338 -3330  "GND.t11" "SH4" 112 0 "a_484_n3276#" 100 14300,486 "a_2735_n8951.t3" 100 7450,249
+device msubckt nfet_03v3 -97 -1643 -96 -1642  "GND.t0" "SH1B" 112 0 "m2_n7_n1760#" 100 7450,249 "A2.t0" 100 10500,410
+device msubckt nfet_03v3 484 -1106 485 -1105  "GND.t16" "SH2" 112 0 "m2_n7_n1018#" 100 15100,502 "a_484_n1050#" 100 7450,249
+device msubckt nfet_03v3 1337 -5353 1338 -5352  "GND.t11" "SH4B" 112 0 "a_2735_n5672.t1" 100 7450,249 "a_484_n2534#" 100 10500,410
+device msubckt nfet_03v3 1337 -6094 1338 -6093  "GND.t11" "SH4B" 112 0 "a_2735_n6405.t1" 100 7450,249 "a_484_n3276#" 100 10800,416
+device msubckt nfet_03v3 1337 -4601 1338 -4600  "GND.t11" "SH4B" 112 0 "a_2735_n4931.t2" 100 7450,249 "a_484_n1792#" 100 10800,416
+device msubckt nfet_03v3 -97 -9063 -96 -9062  "GND.t0" "SH1B" 112 0 "m2_n7_n9180#" 100 7450,249 "A12.t0" 100 10500,410
+device msubckt nfet_03v3 484 -3869 485 -3868  "GND.t16" "SH2B" 112 0 "a_484_n4018#" 100 7450,249 "m2_n7_n2502#" 100 10500,410
+device msubckt nfet_03v3 1337 -2590 1338 -2589  "GND.t11" "SH4" 112 0 "a_484_n2534#" 100 15100,502 "a_2735_n8210.t3" 100 7450,249
+device msubckt nfet_03v3 1337 -10537 1338 -10536  "GND.t11" "SH4B" 112 0 "a_2735_n10830#" 100 7450,249 "a_484_n7728#" 100 10800,416
+device msubckt nfet_03v3 484 -159 485 -158  "GND.t16" "SH2B" 112 0 "a_484_n308#" 100 7450,249 "GND.t18" 100 10500,410
+device msubckt nfet_03v3 484 -10547 485 -10546  "GND.t16" "SH2B" 112 0 "a_484_n10696#" 100 7450,249 "m2_n7_n9180#" 100 10500,410
+device msubckt nfet_03v3 1337 -1838 1338 -1837  "GND.t11" "SH4" 112 0 "a_484_n1792#" 100 14300,486 "a_2735_n7476.t3" 100 7450,249
+device msubckt nfet_03v3 2735 -363 2736 -362  "GND.t2" "SH8" 112 0 "a_2735_n506.t0" 100 14300,486 "OUT1.t0" 100 7450,249
+device msubckt nfet_03v3 484 -8526 485 -8525  "GND.t16" "SH2" 112 0 "m2_n7_n8438#" 100 15100,502 "a_484_n8470#" 100 7450,249
+device msubckt nfet_03v3 1337 -3860 1338 -3859  "GND.t11" "SH4B" 112 0 "a_2735_n9685.t2" 100 7450,249 "a_484_n1050#" 100 10500,410
+device msubckt nfet_03v3 -97 -6300 -96 -6299  "GND.t0" "SH1" 112 0 "A9.t1" 100 15100,502 "m2_n7_n6212#" 100 7450,249
+device msubckt nfet_03v3 1337 378 1338 379  "GND.t11" "SH4" 112 0 "a_484_434#" 100 15100,502 "a_2735_227.t3" 100 7450,249
+device msubckt nfet_03v3 2735 -9007 2736 -9006  "GND.t2" "SH8B" 112 0 "OUT13.t1" 100 7450,249 "a_2735_n8951.t1" 100 10800,416
+device msubckt nfet_03v3 2735 -7737 2736 -7736  "GND.t2" "SH8" 112 0 "a_2735_n7880#" 100 14300,486 "OUT11.t0" 100 7450,249
+device msubckt nfet_03v3 -97 -6837 -96 -6836  "GND.t0" "SH1B" 112 0 "m2_n7_n6954#" 100 7450,249 "A9.t0" 100 10500,410
+device msubckt nfet_03v3 -97 378 -96 379  "GND.t0" "SH1" 112 0 "A0.t1" 100 15100,502 "m2_n7_466#" 100 7450,249
+device msubckt nfet_03v3 -97 -10752 -96 -10751  "GND.t0" "SH1" 112 0 "A15.t0" 100 15100,502 "m2_n7_n10664#" 100 7450,249
+device msubckt nfet_03v3 1337 -2385 1338 -2384  "GND.t11" "SH4B" 112 0 "a_2735_n8210.t2" 100 7450,249 "a_484_434#" 100 10500,410
+device msubckt nfet_03v3 2735 -4047 2736 -4046  "GND.t2" "SH8" 112 0 "a_2735_n9685.t0" 100 15100,502 "OUT6.t0" 100 7450,249
+device msubckt nfet_03v3 2735 -5521 2736 -5520  "GND.t2" "SH8" 112 0 "a_2735_n5672.t0" 100 15100,502 "OUT8.t0" 100 7450,249
+device msubckt nfet_03v3 2735 -6262 2736 -6261  "GND.t2" "SH8" 112 0 "a_2735_n6405.t0" 100 14300,486 "OUT9.t0" 100 7450,249
+device msubckt nfet_03v3 484 -8321 485 -8320  "GND.t16" "SH2B" 112 0 "a_484_n8470#" 100 7450,249 "m2_n7_n6954#" 100 10500,410
+device msubckt nfet_03v3 1337 -1633 1338 -1632  "GND.t11" "SH4B" 112 0 "a_2735_n7476.t2" 100 7450,249 "GND.t15" 100 10800,416
+device msubckt nfet_03v3 -97 -6095 -96 -6094  "GND.t0" "SH1B" 112 0 "m2_n7_n6212#" 100 7450,249 "A8.t0" 100 10500,410
+device msubckt nfet_03v3 -97 -3332 -96 -3331  "GND.t0" "SH1" 112 0 "A5.t1" 100 15100,502 "m2_n7_n3244#" 100 7450,249
+device msubckt nfet_03v3 484 -7784 485 -7783  "GND.t16" "SH2" 112 0 "m2_n7_n7696#" 100 14200,484 "a_484_n7728#" 100 7450,249
+device msubckt nfet_03v3 -97 -159 -96 -158  "GND.t0" "SH1B" 112 0 "m2_n7_n276#" 100 7450,249 "A0.t0" 100 10500,410
+device msubckt nfet_03v3 2735 -7532 2736 -7531  "GND.t2" "SH8B" 112 0 "OUT11.t1" 100 7450,249 "a_2735_n7476.t1" 100 10800,416
+device msubckt nfet_03v3 -97 -1106 -96 -1105  "GND.t0" "SH1" 112 0 "A2.t1" 100 15100,502 "m2_n7_n1018#" 100 7450,249
+device msubckt nfet_03v3 2735 -4788 2736 -4787  "GND.t2" "SH8" 112 0 "a_2735_n4931.t0" 100 14300,486 "OUT7.t0" 100 7450,249
+device msubckt nfet_03v3 484 -5558 485 -5557  "GND.t16" "SH2" 112 0 "m2_n7_n5470#" 100 15100,502 "a_484_n5502#" 100 7450,249
+device msubckt nfet_03v3 2735 -2572 2736 -2571  "GND.t2" "SH8" 112 0 "a_2735_n8210.t0" 100 15100,502 "OUT4.t0" 100 7450,249
+device msubckt nfet_03v3 -97 -3869 -96 -3868  "GND.t0" "SH1B" 112 0 "m2_n7_n3986#" 100 7450,249 "A5.t0" 100 10500,410
+device msubckt nfet_03v3 2735 -3842 2736 -3841  "GND.t2" "SH8B" 112 0 "OUT6.t1" 100 7450,249 "GND.t9" 100 10500,410
+device msubckt nfet_03v3 2735 -4583 2736 -4582  "GND.t2" "SH8B" 112 0 "OUT7.t1" 100 7450,249 "GND.t10" 100 10800,416
+device msubckt nfet_03v3 484 -10010 485 -10009  "GND.t16" "SH2" 112 0 "m2_n7_n9922#" 100 15100,502 "a_484_n9954#" 100 7450,249
+device msubckt nfet_03v3 2735 -10687 2736 -10686  "GND.t2" "SH8" 112 0 "a_2735_n10830#" 100 14300,486 "OUT15.t0" 100 7450,249
+device msubckt nfet_03v3 -97 -8526 -96 -8525  "GND.t0" "SH1" 112 0 "A12.t1" 100 15100,502 "m2_n7_n8438#" 100 7450,249

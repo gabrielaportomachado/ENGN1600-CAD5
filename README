@@ -1,0 +1,71 @@
+Our Implementation of the shifter:
+We implemented our shifter as a barrel shifter. What this means is that we have four different stages, Shift 1, Shift 2, Shift 4, and Shift 8. When each of these is on we shift by that amount. This allows us to do any set of 15 different shifts by combining turning on of these different stages. We used pass gate logic in our design for the Shift inputs to each of the stages. This allowed us to increase the speed and decrease the dynamic power. Nonetheless, as we will soon show and as was expected it made the fall critical delay much faster than the rise critical delay.
+
+Relevant Files:
+SHIFT.gds -> This is the main layout for our shifter
+SHIFT.sch -> THis is the main schematic for our shifter
+tbs/shift_fall_tb.sch -> This is the testbench for the critical delay when falling
+tbs/shift_rise_tb.sch -> THis is the testbench for the critical delay when rising
+tbs/shift_tb_1_to_6.sch -> THis is the testbench for shifting from 1 to 6. They are not all squished into one testbench as the output is capped at some fixed number of lines or something, so they must be split into smaller testbenches
+tbs/shift_tb_7_to_13.sch -> THis is the testbench for shifting from 7 to 13.
+tbs/shift_tb_14_and_15.sch -> THis is the testbench for shifting by 14 and 15.
+SUBMIT/shift_lvs.png -> This is the succesful lvs of our shfter
+SUBMIT/SHIFT_main_drc.png -> SUccesful drc of our shifter
+SUBMIT/spice_fall_delay_15.png -> Waveform illustrating the critical fall delay in our shifter
+SUBMIT/spice_rise_delay_15.png -> Waveform illustrating the critical rise delay in our shifter (notably almost 3 times greater than the fall delay)
+SUBMIT/spice_fall_delays.png -> These are our analog simulation results for all the different 15 shifts and the respective critical delays
+SUBMIT/spice_rise_delays.png -> These are our analog simulation results for all the different 15 shifts and the respective critical delays
+SUBMIT/spice_shift_by_<n>_correct_functionality -> Here n is the shift value. What is shown in the output is the correct functionality for all of the shifts computed. Instead of sorting through messy waveforms we wrote some code to convert the waveforms into their digital representation and allows us to check very easily the result stored in resn vs the n_gives_correctnumber which we calculated beforehand. This was verified for an input of 10101010 with all 15 different shifts.
+
+
+
+Worst Case Delays(s):
+Fall Delays:
+tpd_fall_1 = 2.102141e-10
+tpd_fall_2 = 2.104167e-10
+tpd_fall_3 = 2.098982e-10
+tpd_fall_4 = 2.105848e-10
+tpd_fall_5 = 2.100529e-10
+tpd_fall_6 = 2.102611e-10
+tpd_fall_7 = 2.097547e-10
+tpd_fall_8 = 2.106787e-10
+tpd_fall_9 = 2.101474e-10
+tpd_fall_10 = 2.103462e-10
+tpd_fall_11 = 2.098328e-10
+tpd_fall_12 = 2.105127e-10
+tpd_fall_13 = 2.099864e-10
+tpd_fall_14 = 2.101955e-10
+tpd_fall_15 = 2.096912e-10
+Rise Delays:
+tpd_rise_1 = 3.969874e-10
+tpd_rise_2 = 3.945751e-10
+tpd_rise_3 = 3.980083e-10
+tpd_rise_4 = 3.936471e-10
+tpd_rise_5 = 3.971636e-10
+tpd_rise_6 = 3.947657e-10
+tpd_rise_7 = 3.981833e-10
+tpd_rise_8 = 3.934571e-10
+tpd_rise_9 = 3.969881e-10
+tpd_rise_10 = 3.945771e-10
+tpd_rise_11 = 3.980101e-10
+tpd_rise_12 = 3.936491e-10
+tpd_rise_13 = 3.971651e-10
+tpd_rise_14 = 3.947678e-10
+tpd_rise_15 = 3.981853e-10
+
+The important thing to note here is not necessarily the difference amongst rise and fall delays as these are basically neglible, but instead the difference in delay between the rise and fall. This is what we would expect given what we learned in class on Wednesday about pass gate logic. NMOS are setup as the pull down network because they are 'better' at pulling down then pulling up. This means that there are a series of effects that are at play when rising that add a significant amount of delay to our shifter. First is the voltage threshold tax where as the signal rises, the NMOS tries to shut itself off, and reaches the subthreshold region when Vgs becomes Vdd-Vt. Secondly, is the body effect where in each stage the threshold voltage increases. We also have the added series resistance which leads to more elmore delay as each nmos is in series, and has an effective higher resistance when passing a 1 instead of a 0.
+
+Estimated input capacitances:
+Sh1: 16 * 0.5
+Sh1b: 16 * 0.5
+Sh2: 16 * 0.5
+Sh2b: 16 * 0.5
+Sh4: 16 * 0.5
+Sh4b: 16 * 0.5
+Sh8: 16 * 0.5
+Sh8b: 16 * 0.5
+A values are all 7.5.
+Obviously these values need to be scaled by the capacitance of the capacitance to an nmos with W=1, but since we don't know exactly what this value is for gf180mcuD, we leave it in this normalized way. 
+The values for the Shifters are easy as these are gate capacitances, so we simply need to look at the capacitances at the gates they are inputted in and some them up. For the A values though, if the nmos is on then we are passing this value and we also incorporate the capacitance of the next source. The total junctions seen by each input is 12: You have 1 Source (at the start), 3 "Source+Drain" internal junctions, and 1 Drain (at the output). That is 8 junction units. At each of the 4 stages, your signal also "touches" the Drain of a transistor that is turned OFF. Add 4 more junction units. Thus with a constant w of 0.5 we have a capacitance of 12* 0.5 times the junction capacitance for w=1. FInally, we must add the final buffer capacitance of 1.5. This gives 7.5. And this doesn't even account for any of the interconnects, etc.
+
+

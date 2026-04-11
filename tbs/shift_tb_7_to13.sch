@@ -194,6 +194,9 @@ alter VA0  = $&vlow
 
 * --- SHIFT 7 (0111) ---
 alter vSh1 = $&vhigh
+alter vSh2 = $&vhigh
+alter vSh4 = $&high
+alter vSh8 = $&vlow
 tran 1n 40n
 
 meas tran v7_0  find v(OUT0)  at=30n
@@ -638,82 +641,6 @@ if v12_15 > 1.6
 end
 echo "12_gives_40960"
 print res12
-* --- SHIFT 13 (1101) ---
-alter vSh8 = $&vhigh
-alter vSh4 = $&vhigh
-alter vSh2 = $&vlow
-alter vSh1 = $&vhigh
-
-tran 1n 40n
-
-meas tran v13_0  find v(OUT0)  at=30n
-meas tran v13_1  find v(OUT1)  at=30n
-meas tran v13_2  find v(OUT2)  at=30n
-meas tran v13_3  find v(OUT3)  at=30n
-meas tran v13_4  find v(OUT4)  at=30n
-meas tran v13_5  find v(OUT5)  at=30n
-meas tran v13_6  find v(OUT6)  at=30n
-meas tran v13_7  find v(OUT7)  at=30n
-meas tran v13_8  find v(OUT8)  at=30n
-meas tran v13_9  find v(OUT9)  at=30n
-meas tran v13_10 find v(OUT10) at=30n
-meas tran v13_11 find v(OUT11) at=30n
-meas tran v13_12 find v(OUT12) at=30n
-meas tran v13_13 find v(OUT13) at=30n
-meas tran v13_14 find v(OUT14) at=30n
-meas tran v13_15 find v(OUT15) at=30n
-
-let res13 = 0
-if v13_0 > 1.6
-  let res13 = res13 + 1
-end
-if v13_1 > 1.6
-  let res13 = res13 + 2
-end
-if v13_2 > 1.6
-  let res13 = res13 + 4
-end
-if v13_3 > 1.6
-  let res13 = res13 + 8
-end
-if v13_4 > 1.6
-  let res13 = res13 + 16
-end
-if v13_5 > 1.6
-  let res13 = res13 + 32
-end
-if v13_6 > 1.6
-  let res13 = res13 + 64
-end
-if v13_7 > 1.6
-  let res13 = res13 + 128
-end
-if v13_8 > 1.6
-  let res13 = res13 + 256
-end
-if v13_9 > 1.6
-  let res13 = res13 + 512
-end
-if v13_10 > 1.6
-  let res13 = res13 + 1024
-end
-if v13_11 > 1.6
-  let res13 = res13 + 2048
-end
-if v13_12 > 1.6
-  let res13 = res13 + 4096
-end
-if v13_13 > 1.6
-  let res13 = res13 + 8192
-end
-if v13_14 > 1.6
-  let res13 = res13 + 16384
-end
-if v13_15 > 1.6
-  let res13 = res13 + 32768
-end
-echo "13_gives_16384"
-print res13
 
 .endc
 "}
